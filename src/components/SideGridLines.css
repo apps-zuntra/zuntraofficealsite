@@ -1,0 +1,210 @@
+/* =========================================================
+   INTERACTIVE SIDE GRID LINES (Home & Products Page)
+   Hover triggers light rainbow animation matching footer bar
+   ========================================================= */
+
+.side-gridlines-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 20;
+  overflow: visible;
+}
+
+/* 16px hover zone centered directly over the line */
+.side-gridline {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  pointer-events: auto;
+  cursor: default;
+  /* Keep standard cursor clearly visible */
+  display: flex;
+  justify-content: center;
+  z-index: 25;
+}
+
+.side-gridline-left {
+  left: calc(64px - 16px);
+}
+
+.side-gridline-right {
+  right: calc(64px - 16px);
+}
+
+/* Base line: 1px subtle neutral gray */
+.side-gridline-bar {
+  position: relative;
+  width: 1px;
+  height: 100%;
+  background-color: #e5e7eb;
+  transition: background-color 0.25s ease, width 0.25s ease;
+  overflow: visible;
+}
+
+/* Rainbow Beam that travels up to down once on hover/touch */
+.side-gridline-beam {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  /* Increased width/thickness for prominent visibility */
+  height: 140px;
+  /* Increased length for rich color spectrum */
+  transform: translateX(-50%);
+  pointer-events: none;
+  opacity: 0;
+  border-radius: 999px;
+  background: linear-gradient(180deg,
+      transparent 0%,
+      rgba(245, 158, 11, 0.95) 12%,
+      rgba(239, 68, 68, 0.98) 28%,
+      rgba(236, 72, 153, 0.98) 44%,
+      rgba(139, 92, 246, 0.98) 60%,
+      rgba(59, 130, 246, 0.98) 76%,
+      rgba(16, 185, 129, 0.95) 88%,
+      transparent 100%);
+
+  will-change: top, opacity;
+}
+
+.side-gridline:hover .side-gridline-bar {
+  background-color: #d1d5db;
+  width: 2px;
+}
+
+.side-gridline-beam.animating {
+  animation: verticalBeamTravelOnce 3s ease-in-out forwards;
+}
+
+@keyframes verticalBeamTravelOnce {
+  0% {
+    top: var(--beam-start-y, 0px);
+    opacity: 0;
+  }
+
+  4% {
+    opacity: 1;
+  }
+
+  94% {
+    opacity: 1;
+  }
+
+  100% {
+    top: var(--beam-end-y, 800px);
+    opacity: 0;
+  }
+}
+
+/* Hide fragmented static section lines on Home page so unified continuous lines take over */
+.home-page-main .hero-top-banner::before,
+.home-page-main .hero-top-banner::after,
+.home-page-main .hero-cards-section::before,
+.home-page-main .hero-cards-section::after,
+.home-page-main .home-quote-section::before,
+.home-page-main .home-quote-section::after,
+.home-page-main .what-zuntra-builds-section::before,
+.home-page-main .what-zuntra-builds-section::after {
+  display: none !important;
+}
+
+/* Grid width and positioning shared between Home, Product, Build, Labs, and other pages */
+.home-page-main .side-gridlines-container,
+.product-page .side-gridlines-container,
+.build-page .side-gridlines-container,
+.subtopic-page .side-gridlines-container,
+.zl .side-gridlines-container,
+.enterprise-page .side-gridlines-container,
+.industry-page .side-gridlines-container,
+.vertical-page .side-gridlines-container,
+.mv-page .side-gridlines-container,
+.ch-page .side-gridlines-container {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: none;
+  max-width: 1266px;
+  width: 100%;
+}
+
+/* Home page specifically starts below the hero */
+.home-page-main .side-gridlines-container {
+  top: 560px;
+  height: calc(100% - 560px);
+}
+
+/* Build page specifically starts below the hero */
+.build-page .side-gridlines-container {
+  top: 760px;
+  height: calc(100% - 760px);
+}
+
+.home-page-main .side-gridline-left,
+.product-page .side-gridline-left,
+.build-page .side-gridline-left,
+.subtopic-page .side-gridline-left,
+.zl .side-gridline-left,
+.enterprise-page .side-gridline-left,
+.industry-page .side-gridline-left,
+.vertical-page .side-gridline-left,
+.mv-page .side-gridline-left,
+.ch-page .side-gridline-left {
+  left: -16px;
+}
+
+.home-page-main .side-gridline-right,
+.product-page .side-gridline-right,
+.build-page .side-gridline-right,
+.subtopic-page .side-gridline-right,
+.zl .side-gridline-right,
+.enterprise-page .side-gridline-right,
+.industry-page .side-gridline-right,
+.vertical-page .side-gridline-right,
+.mv-page .side-gridline-right,
+.ch-page .side-gridline-right {
+  right: -16px;
+}
+
+
+@media (max-width: 1300px) {
+
+  .home-page-main .side-gridlines-container,
+  .product-page .side-gridlines-container,
+  .build-page .side-gridlines-container,
+  .subtopic-page .side-gridlines-container,
+  .zl .side-gridlines-container,
+  .enterprise-page .side-gridlines-container,
+  .industry-page .side-gridlines-container,
+  .vertical-page .side-gridlines-container,
+  .mv-page .side-gridlines-container,
+  .ch-page .side-gridlines-container {
+    max-width: calc(100% - 64px);
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .home-page-main .side-gridlines-container,
+  .product-page .side-gridlines-container,
+  .build-page .side-gridlines-container,
+  .subtopic-page .side-gridlines-container,
+  .zl .side-gridlines-container,
+  .enterprise-page .side-gridlines-container,
+  .industry-page .side-gridlines-container,
+  .vertical-page .side-gridlines-container,
+  .mv-page .side-gridlines-container,
+  .ch-page .side-gridlines-container {
+    max-width: calc(100% - 48px);
+  }
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 640px) {
+  .side-gridlines-container {
+    display: none;
+  }
+}

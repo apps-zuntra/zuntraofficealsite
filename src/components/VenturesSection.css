@@ -1,0 +1,79 @@
+.ventures-section {
+  padding: 0;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.ventures-header-container {
+  max-width: 1266px;
+  margin: 0 auto;
+  width: 100%;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding: 4.5rem 3.5rem 3.5rem 3.5rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.ventures-pill {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.35rem 0.85rem;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-bottom: 1.25rem;
+}
+
+.ventures-title {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 2.45rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem 0;
+}
+
+.ventures-subtitle {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #64748b;
+  margin: 0;
+  max-width: 800px;
+}
+
+@media (max-width: 1300px) {
+  .ventures-header-container {
+    max-width: calc(100% - 64px);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ventures-header-container {
+    margin: 0 24px;
+    max-width: calc(100% - 48px);
+    padding: 3.5rem 2rem 2.5rem 2rem;
+  }
+
+  .ventures-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .ventures-header-container {
+    margin: 0 16px;
+    max-width: calc(100% - 32px);
+    padding: 2.5rem 1.25rem 2rem 1.25rem;
+  }
+
+  .ventures-title {
+    font-size: 37px;
+  }
+}

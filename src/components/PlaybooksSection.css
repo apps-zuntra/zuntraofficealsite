@@ -1,0 +1,78 @@
+.playbooks-section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.playbook-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--bg-primary);
+  transition: transform 0.3s;
+}
+
+.playbook-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+}
+
+.playbook-content {
+  padding: 3rem;
+  flex: 1;
+}
+
+.playbook-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.playbook-content p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.playbook-visual {
+  height: 250px;
+  background-color: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.visual-1 { background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(139,92,246,0.1)); }
+.visual-2 { background: linear-gradient(135deg, rgba(16,185,129,0.1), rgba(59,130,246,0.1)); }
+
+.card-mockup {
+  width: 100%;
+  max-width: 300px;
+  background: white;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.mockup-header {
+  height: 24px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.mockup-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.line {
+  height: 8px;
+  background: var(--border-light);
+  border-radius: 4px;
+}
+
+.line-short { width: 40%; }
+.line-medium { width: 70%; }
+.line-long { width: 100%; }

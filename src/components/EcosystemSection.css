@@ -1,0 +1,235 @@
+.ecosystem-section {
+  padding: 8rem 5%;
+  background-color: #fff;
+}
+
+.eco-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #111;
+  margin-bottom: 5rem;
+  letter-spacing: -0.03em;
+}
+
+.eco-layout {
+  display: flex;
+  gap: 6rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.eco-sidebar {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.eco-tab {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  padding: 1.5rem 0;
+  text-align: left;
+  font-size: 0.95rem;
+  color: #888;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.eco-tab:hover {
+  color: #111;
+}
+
+.eco-tab.active {
+  color: #111;
+  font-weight: 700;
+  border-left: 3px solid #8b5cf6;
+  padding-left: 1rem;
+}
+
+.eco-content {
+  flex: 1;
+}
+
+.eco-panel h3 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.eco-panel p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+
+.eco-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.eco-tags span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #8b5cf6;
+  background-color: #f5f3ff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.eco-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  border: 1px solid #c4b5fd;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.eco-card {
+  padding: 1rem;
+}
+
+.eco-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #c4b5fd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.eco-card h5 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+.eco-card p {
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 0;
+}
+
+/* Blue Theme (Products) */
+.eco-tags-blue span { color: #3b82f6; background-color: #eff6ff; }
+.eco-grid-blue { border-color: #93c5fd; }
+.eco-icon-blue { background-color: #93c5fd; }
+
+/* Teal Theme (Ventures) */
+.eco-tags-teal span { color: #14b8a6; background-color: #f0fdfa; }
+.eco-grid-teal { border-color: #5eead4; }
+.eco-icon-teal { background-color: #5eead4; }
+
+/* Orange Theme (Enterprise) */
+.eco-tags-orange span { color: #f97316; background-color: #fff7ed; }
+.eco-grid-orange { border-color: #fdba74; }
+.eco-icon-orange { background-color: #fdba74; }
+
+/* Pink Theme (Innovation) */
+.eco-tags-pink span { color: #db2777; background-color: #fdf2f8; }
+.eco-grid-pink { border-color: #f472b6; }
+.eco-icon-pink { background-color: #f472b6; }
+
+/* Green Theme (Robotics) */
+.eco-tags-green span { color: #10b981; background-color: #ecfdf5; }
+.eco-grid-green { border-color: #6ee7b7; }
+.eco-icon-green { background-color: #6ee7b7; }
+
+@media (max-width: 1024px) {
+  .ecosystem-section {
+    padding: 6rem 5%;
+  }
+  .eco-title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+  .eco-layout {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .eco-layout {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .eco-sidebar {
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    border-bottom: 1px solid #eaeaea;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scrollbar-width: none; /* Firefox */
+  }
+  .eco-sidebar::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+  .eco-tab {
+    white-space: nowrap;
+    border-bottom: none;
+    padding: 1rem 1.5rem;
+    flex-shrink: 0; /* Prevent tabs from shrinking */
+  }
+  .eco-tab.active {
+    border-left: none;
+    /* Use a neutral dark active line on mobile for simplicity, or keep purple as default */
+    border-bottom: 3px solid #111;
+    padding-left: 1.5rem; /* Reset left padding since left border is removed */
+  }
+  .eco-panel h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .ecosystem-section {
+    padding: 4rem 5%;
+  }
+  .eco-title {
+    font-size: 2.25rem;
+    margin-bottom: 3rem;
+  }
+  .eco-layout {
+    gap: 2.5rem;
+  }
+  .eco-tags {
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .eco-tags span {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .eco-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  .eco-panel p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ecosystem-section {
+    padding: 3.5rem 4%;
+  }
+
+  .eco-title {
+    font-size: 1.85rem;
+  }
+
+  .eco-panel h3 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,1511 @@
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: UI/UX DESIGN INTERN
+About Zuntra Digital
+Zuntra Digital is seeking a UI/UX Design Intern to assist in designing intuitive and visually appealing user experiences. This internship will provide hands-on experience in user interface and user experience design, helping you build essential skills for a future in the field.
+Responsibilities:
+* Create wireframes, prototypes, and user flows to improve user experience.
+* Design user-friendly interfaces for web and mobile applications.
+* Assist in research and analysis of user behavior to enhance usability.
+* Collaborate with developers, designers, and stakeholders to ensure a cohesive design.
+* Maintain consistency in design elements while aligning with brand guidelines.
+Qualifications:
+* Proficiency in Figma for wireframing and prototyping.
+* Basic understanding of UI/UX design principles and user-centered design.
+* Strong problem-solving and critical-thinking skills.
+* Good communication skills and ability to work in a team.
+* A portfolio showcasing UI/UX projects (academic or personal projects accepted).
+Preferred Skills:
+* Familiarity with usability testing and user research methods.
+* Understanding of typography, color theory, and layout design.
+* Interest in learning new design tools and methodologies.
+* Basic knowledge of front-end development (HTML, CSS) is a plus.
+What We Offer:
+* Hands-on experience in real-world UI/UX projects.
+* Mentorship and guidance from industry professionals.
+* Opportunity to enhance your portfolio with impactful work.
+* A supportive environment to develop and refine your design skills.
+Join Us:
+If you are eager to learn and passionate about UI/UX design, we encourage you to apply for the UI/UX Design Internship at Zuntra Digital. Submit your resume, cover letter, and a link to your portfolio to be considered. We look forward to helping you grow and achieve your professional aspirations!
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Full Stack Developer Intern
+Internship | On-Site
+Overview
+Zuntra Digital is looking for a passionate Full Stack Developer Intern (Web) to join our talented team. As part of our development team, you will design and develop our next wave of flagship products while maintaining and enhancing our existing software application stack. This role provides an excellent opportunity to build essential skills for a future career in full stack development.
+You will work with modern web technologies including JavaScript, HTML, CSS, C# .Net Core, ASP.Net MVC, and MySQL, and gain hands-on experience in designing, developing, and deploying web applications.
+Key Responsibilities
+* Design, develop, and maintain scalable, robust, and clean code across the full stack.
+* Build responsive and user-friendly web applications with functional UI and layouts.
+* Integrate backend services, APIs, and databases with web applications.
+* Debug, test, and resolve technical issues to ensure optimal performance.
+* Collaborate with the team to translate business and technical requirements into functional applications.
+* Participate in peer code reviews and follow best practices in software development.
+* Contribute to the design of UI, database models, and application architecture.
+* Work both independently and collaboratively, managing deadlines and multiple projects.
+Qualifications (for Web Full Stack Development)
+* Strong foundation in Web Technologies: HTML, CSS, JavaScript.
+* Basic knowledge of frontend frameworks such as React.js or Angular.js.
+* Understanding of backend development using C# (.Net Core / ASP.Net MVC) or Python (Django).
+* Familiarity with Databases (MySQL or SQL Server) and writing basic queries.
+* Knowledge of Object-Oriented Programming (OOP) concepts.
+* Understanding of API integration using REST (JSON/XML).
+* Basic knowledge of software development principles (SOLID, MVC, design patterns).
+* Strong problem-solving and analytical skills.
+* Good communication skills and ability to collaborate in a team.
+* Eagerness to learn new tools, frameworks, and technologies.
+Preferred Skills
+* Web Development: HTML, CSS, JavaScript
+* Frameworks: React.js, Angular.js
+* Backend: C# /.Net Core, ASP.Net MVC, Python/Django
+* Mobile/Low-code platforms: Flutter Flow, WIX Studio, Adalo, Android Studio
+* Databases: SQL (MySQL)
+* Principles: SOLID, OOP (Object-Oriented Programming), OOA/OOD
+* Testing: NUnit, xUnit, MSTest
+* Software Engineering: Design patterns, architectural patterns, and development methodologies
+* API Integration: Working with XML/JSON for external systems
+* Experience in producing standards-compliant, performant, and accessible websites.
+Why Join Us?
+* Gain hands-on experience in full stack web development.
+* Work on real-world projects with a talented and supportive team.
+* Opportunity to sharpen your skills in modern frameworks, cloud infrastructure, and scalable application design.
+* Be part of a collaborative, growth-oriented environment.
+Location
+📍 Zuntra Digital
+No. 61, 3rd Floor, Estate Main Rd, Developed Plots,
+Industrial Estate, Perungudi, Chennai, Tamil Nadu 600096.
+Apply Now
+📩 For further details, contact our HR:
+Kumudapriya V. – hrofficial@zuntra.com | ☎ 9150236930
+🌐 Learn more about us: www.zuntra.com
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: Flutter Developer Intern (Fresher)
+About Zuntra Digital
+Zuntra Digital is a high-impact technology solutions and media production company focused on delivering scalable, user-centric digital products. We work closely with startups, enterprises, and growing businesses to design and develop innovative web and mobile applications. At Zuntra Digital, interns are treated as core contributors and are provided with real-world exposure, mentorship, and opportunities to build industry-relevant skills.
+Role Overview
+Zuntra Digital is seeking a motivated and enthusiastic Flutter Developer Intern (Fresher) to support the design, development, and maintenance of cross-platform mobile applications using Flutter and Dart. This role offers hands-on experience in building high-performance Android and iOS applications while working collaboratively with experienced developers, UI/UX designers, and backend teams. The internship is ideal for candidates looking to strengthen their mobile development expertise and gain practical industry exposure.
+Key Responsibilities
+* Develop and maintain mobile applications using Flutter and Dart.
+* Design and implement clean, responsive, and user-friendly UI screens for both Android and iOS platforms.
+* Integrate RESTful APIs and manage JSON-based data exchange.
+* Implement basic state management solutions such as Provider, GetX, or Bloc (fundamentals).
+* Work with local storage solutions including SharedPreferences.
+* Perform testing, debugging, and optimization to ensure application performance, stability, and usability.
+* Collaborate effectively with UI/UX designers, backend developers, and project teams.
+* Follow version control best practices using Git/GitHub and adhere to development standards.
+Required Skills & Qualifications
+* Strong understanding of Flutter widgets, layouts, and navigation concepts.
+* Knowledge of Dart programming fundamentals, including async/await.
+* Basic understanding of API integration and data handling.
+* Familiarity with Material Design principles and mobile UI best practices.
+* Ability to write clean, modular, reusable, and maintainable code.
+* Strong problem-solving skills and willingness to learn new technologies.
+Good to Have
+* Basic experience with Firebase (Authentication, Firestore).
+* Exposure to GitHub repositories and collaborative coding practices.
+* Awareness of basic app deployment processes for Android and iOS.
+Learning Opportunities & What We Offer
+* Hands-on experience working on live industry projects.
+* Mentorship and guidance from experienced developers and technical leads.
+* Exposure to real-world mobile application development workflows.
+* Opportunity to strengthen problem-solving, debugging, and collaboration skills.
+* Certificate of Internship upon successful completion.
+* Performance-based opportunity for full-time employment or extended engagement.
+* A collaborative, growth-oriented, and learning-driven work environment.
+Note: All the above roles are in-person internships at Zuntra Digital’s office. This is a
+3-month internship, with the potential for full-time employment and certification based on Performance.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: DATA ANALYST – TECHNICAL
+About Zuntra Digital
+Empowering Ideas, Shaping Futures. Zuntra Digital blends creativity, technology, and strategy to power future-ready brands. From media tech and data-driven platforms to automation and AI innovation, we build solutions that help businesses create, scale, and lead in the digital age.
+Job Description
+If you enjoy working with data, analysing trends, and understanding how data drives business decisions, this role is built for you. As a Data Analyst, you will work at the intersection of technology, data, and business, supporting teams with insights, reports, and structured analysis using Python, SQL, and Excel.
+Key Responsibilities
+• Collect, clean, and analyse structured and semi-structured datasets
+• Write efficient SQL queries for data extraction, joins, and aggregations
+• Use Python (Pandas, NumPy) for data analysis, automation, and reporting
+• Create dashboards, reports, and performance summaries using Excel
+• Identify trends, patterns, and anomalies in business and product data
+• Collaborate with product, marketing, and technical teams to provide data insights
+• Document analysis findings and prepare presentations for stakeholders
+• Support data validation, quality checks, and process improvements
+Qualifications
+• Technical background in Engineering, Computer Science, IT, Data Science, or related fields
+• Strong analytical and problem-solving abilities
+• Proficiency in Python, SQL, and Microsoft Excel
+• Ability to convert raw data into meaningful and actionable insights
+• Good communication and documentation skills
+• Curiosity and willingness to learn in a fast-paced environment
+Bonus
+• Familiarity with data visualization tools such as Power BI or Tableau
+• Basic understanding of databases, APIs, or data pipelines
+• Exposure to statistics, KPIs, or business metrics
+• Experience working with real-world datasets or academic projects
+Location
+This role is in-person at Zuntra Digital’s office: No 61, 3rd Floor, Estate Main Rd, Developed Plots, Industrial Estate,
+Perungudi, Chennai – 600096.
+Opportunities
+• Exceptional performance may lead to a full-time opportunity at Zuntra Digital
+• Certificate of completion detailing skills and contributions (for interns)
+• Hands-on experience working with real business and product data
+• Exposure to cross-functional teams and real-world data challenges
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: GRAPHIC DESIGNER INTERN
+ (3-Month Unpaid or paid Internship depending on your experience)
+About Zuntra Digital:
+Zuntra Digital is a fast-growing production and web services company, delivering cutting-edge digital solutions. We specialize in helping brands establish a strong online presence through exceptional design, development, and marketing services. Visit us at www.zuntra.com to learn more.
+Job Description:
+We are looking for a passionate Graphic Design Intern to join our creative team. You will work closely with our design and marketing departments to create visually appealing graphics, logos, layouts, and illustrations for a variety of digital and print campaigns.
+Key Responsibilities:
+* Design compelling graphics for social media, websites, and promotional materials.
+* Assist in developing cohesive branding elements, including logos, layouts, and templates.
+* Collaborate with the marketing and creative teams to conceptualize and execute design projects.
+* Ensure all designs align with brand guidelines and maintain visual consistency across platforms.
+* Utilize tools like Canva, Adobe Express and Adobe Creative Suite for efficient and effective design output is required
+* Stay updated on design trends and incorporate AI-driven tools or techniques to enhance visual content.
+Qualifications:
+* Proficiency in Adobe Creative Suite (Photoshop, Illustrator.) and Canva, Adobe Express is required.
+* Basic understanding or willingness to learn AI tools related to design and content creation.
+* Strong grasp of design principles, color theory, typography, and layout.
+* A creative mindset with a keen eye for detail and aesthetics.
+* Good communication skills and the ability to collaborate within a team environment.
+* Prior experience in graphic design; portfolio submission is preferred and encouraged.
+Location: This internship is in-person at Zuntra Digital's office.
+Address: No 61, 3rd Floor, Estate Main Rd, Developed Plots, Industrial Estate, Perungudi, Chennai, Tamil Nadu 600096.
+Opportunities:
+   * Extraordinary performance during the internship may lead to a full-time placement opportunity with Zuntra Digital.
+   * A certificate of completion will be awarded at the end of the internship, highlighting the skills and contributions made during the program.
+Note: All the above roles are in-person internships at Zuntra Digital's office. This is a 3-month internship, with the potential for full-time employment and certification based 
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: Marketing Intern
+About Zuntra Digital
+Empowering Ideas, Shaping Futures. Zuntra Digital blends creativity, technology, and strategy to build future-ready brands. From media tech and content platforms to automation and AI-driven solutions, we help businesses scale and succeed in the digital era.
+Role Overview
+We are seeking a proactive and motivated Marketing Intern to support our marketing initiatives across branding, campaigns, research, and outreach. This role offers hands-on exposure to real-world marketing strategies, planning, and execution in a fast-paced digital environment.
+Key Responsibilities
+• Assist in planning and executing marketing campaigns and initiatives
+• Conduct market research and competitor analysis
+• Support brand-building and promotional activities
+• Coordinate with internal teams for campaign execution
+• Prepare marketing materials such as presentations, reports, and basic creatives
+• Track campaign performance and support reporting and insights
+• Assist in lead generation, outreach, and partnership initiatives
+Qualifications
+• Recent graduate, final-year student, or self-learner with an interest in marketing
+• Basic understanding of marketing concepts and branding principles
+• Strong communication and interpersonal skills
+• Analytical mindset with attention to detail
+• Willingness to learn and adapt in a dynamic work environment
+• Knowledge of digital marketing tools or platforms is an added advantage
+Internship Details Location:
+In-office (Zuntra Digital)
+Address: No. 61, 3rd Floor, Estate Main Road, Developed Plots,
+Industrial Estate, Perungudi, Chennai – 600096
+Duration: 3 Months
+Opportunities & Benefits
+• Hands-on exposure to end-to-end marketing operations
+• Mentorship from experienced professionals
+• Certificate of Completion upon successful internship completion
+• Opportunity for full-time employment based on performance
+Contact Information
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: Finance and HR Intern
+About Zuntra Digital
+Zuntra Digital is a technology-driven organization focused on building future-ready brands
+through the integration of creativity, strategy, and digital innovation. With expertise spanning
+media technology, content platforms, automation, and AI-driven solutions, Zuntra Digital
+supports businesses in achieving scalable and sustainable growth in the digital ecosystem.
+Role Overview
+Zuntra Digital seeks a disciplined and motivated Finance and HR Intern to provide
+operational support across the Finance and Human Resource functions. The internship is
+structured to offer comprehensive exposure to financial management, HR operations,
+reporting, compliance, and cross-functional coordination. The role requires professionalism,
+attention to detail, and the ability to work in a structured, fast-paced organizational
+Environment.
+Key Responsibilities
+Finance Responsibilities
+• Support daily accounting and financial operations in accordance with organizational
+policies
+• Assist in the preparation and review of financial reports, summaries, and basic financial
+statements
+• Monitor and maintain records related to expenses, invoices, reimbursements, and vendor
+payments
+• Assist in budgeting, forecasting, variance analysis, and cost-control initiatives
+• Ensure accurate documentation and systematic maintenance of financial records
+• Support compliance with internal controls and statutory requirements
+Human Resource Responsibilities
+• Assist in recruitment processes including resume screening, interview scheduling, and
+candidate coordination
+• Support onboarding, employee documentation, and maintenance of personnel records
+• Maintain HR databases, attendance records, and employee information systems
+• Assist in preparation of HR reports, dashboards, and basic workforce analytics
+• Support employee engagement programs and internal HR initiatives
+• Assist in drafting HR policies, standard operating procedures, and internal communications
+• Coordinate with internal stakeholders on HR-related processes and requirements
+Qualifications
+• Recent graduate or final-year student specializing in Finance, Human Resources,
+Commerce, Business Administration, or related disciplines
+• Foundational knowledge of accounting principles, financial management, and HR practices
+• Strong analytical, organizational, and documentation skills
+• Effective written and verbal communication abilities
+• High level of accuracy, confidentiality, and professional integrity
+• Proficiency in MS Excel, MS Office, or equivalent productivity tools
+• Familiarity with HRMS or accounting software will be considered an added advantage
+Internship Details
+Work Mode: In-office
+Location: Zuntra Digital
+Address: No. 61, 3rd Floor, Estate Main Road, Developed Plots,
+Industrial Estate, Perungudi, Chennai – 600096
+Duration: 3 Months
+Opportunities & Benefits
+• Structured exposure to Finance and HR functions within a professional business
+environment
+• Mentorship and supervision by experienced professionals
+• Opportunity to develop practical, industry-relevant skills
+• Certificate of Completion upon successful internship tenure
+• Potential consideration for full-time employment based on performance and organizational
+Requirements
+Contact Information
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role Title: Associate Intern – Data Analytics & AI-Enabled Learning Systems`
+About Zuntra Digital
+Zuntra Digital is a technology-driven organization focused on building future-ready brands
+through the integration of creativity, strategy, and digital innovation. With capabilities
+spanning media technology, intelligent content platforms, workflow automation, and AI-driven solutions, Zuntra Digital partners with organizations to design scalable, data-led, and sustainable digital ecosystems.
+Role Overview
+Zuntra Digital is seeking a structured and analytically driven Associate Intern – Data Analytics & AI-Enabled Learning Systems to support data operations, analytics workflows, and AI-assisted curriculum development initiatives. This role provides hands-on exposure to data analysis, automation workflows, AI-assisted instructional design, learning analytics, and content intelligence systems. The intern will work closely with cross-functional teams including product, education, technology, and strategy, contributing to data-backed decision-making and scalable learning Solutions. The role demands strong analytical thinking, precision, curiosity for AI-driven systems, and the ability to operate within a fast-paced, process-oriented professional environment.
+Key Responsibilities
+Data Analytics & Automation Responsibilities
+● Assist in collecting, cleaning, structuring, and maintaining datasets across business and learning platforms
+● Support data analysis for internal reporting, dashboards, and performance tracking
+● Assist in building basic analytics reports using spreadsheets, BI tools, or analytics platforms
+● Support automation of recurring data workflows using low-code / no-code tools and AI-assisted processes
+● Conduct exploratory data analysis to identify trends, insights, and optimization opportunities
+● Ensure data accuracy, documentation, version control, and structured data management
+● Support compliance with internal data governance and reporting standards
+AI-Enabled eLearning & Curriculum Development Responsibilities
+● Assist in designing and structuring eLearning curricula using AI-assisted tools
+● Support curriculum mapping, learning objective definition, and modular content structuring
+● Assist in developing assessments, quizzes, learning paths, and evaluation frameworks
+● Analyze learner data and engagement metrics to improve learning effectiveness
+● Support automation of content workflows including content tagging, metadata creation, and updates
+● Assist in drafting instructional content, learning guides, and internal documentation
+● Coordinate with subject matter experts, designers, and technology teams on curriculum delivery
+Qualifications
+● Recent graduate or final-year student specializing in Data Analytics, Computer Science, AI, Education Technology, Instructional Design, Business Analytics, or related disciplines
+● Foundational understanding of data analysis concepts, statistics, or analytics workflows
+● Familiarity with Excel, Google Sheets, or data visualization tools
+● Exposure to AI tools, automation platforms, or learning management systems is an advantage
+● Strong analytical, organizational, and documentation skills
+● Ability to work with structured processes and evolving datasets
+● Clear written and verbal communication skills
+● High standards of data accuracy, confidentiality, and professional integrity
+Internship Details
+● Work Mode: In-office
+● Location: Zuntra Digital
+● Address: No. 61, 3rd Floor, Estate Main Road, Developed Plots,
+Industrial Estate, Perungudi, Chennai – 600096
+● Duration: 3 Months
+Opportunities & Benefits
+● Structured exposure to data analytics, AI-enabled systems, and digital learning platforms
+● Hands-on experience with real-world datasets, automation workflows, and AI-assisted content systems
+● Mentorship from professionals across analytics, technology, and learning design
+● Development of industry-relevant, future-focused skills
+● Certificate of Completion upon successful internship tenure
+● Potential consideration for full-time roles based on performance and organizational needs.
+Contact Information
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: Outreach & Public Relations Intern
+About Zuntra Digital
+Empowering Ideas, Shaping Futures. Zuntra Digital blends creativity, technology, and strategy to build future-ready brands. From media tech and content platforms to automation and AI-driven solutions, we help businesses scale and succeed in the digital era.
+Role Overview
+We are looking for a dynamic and communication-driven Outreach & Public Relations Intern to support our external engagement, partnerships, and brand visibility initiatives. This role is ideal for individuals interested in relationship building, corporate communication, and brand representation.
+Key Responsibilities
+• Assist in planning and executing outreach and public relations initiatives
+• Build and maintain relationships with colleges, institutions, communities, and partners
+• Coordinate with event partners, speakers, and collaborators
+• Draft outreach emails, proposals, and communication materials
+• Represent Zuntra Digital in external interactions professionally
+• Maintain databases of contacts, partners, and outreach activities
+• Support PR activities related to events, programs, and brand campaigns
+Qualifications
+• Recent graduate, final-year student, or self-learner interested in outreach, PR, or communications
+• Strong verbal and written communication skills
+• Confident, professional, and people-oriented mindset
+• Basic understanding of branding, marketing, or public relations concepts
+• Good coordination, follow-up, and organizational skills
+• Willingness to learn and adapt in a fast-paced professional environment
+Internship Details
+Location: In-office (Zuntra Digital)
+Address: No. 61, 3rd Floor, Estate Main Road, Developed Plots, Industrial Estate, Perungudi, Chennai – 600096
+Duration: 3 Months
+Opportunities & Benefits
+• Hands-on exposure to outreach, partnerships, and PR operations
+• Mentorship from experienced professionals
+• Certificate of Completion upon successful internship completion
+• Opportunity for full-time employment based on performance
+Contact Information
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: PROJECT MANAGEMENT INTERN
+(3-Month Unpaid or Paid Internship/ Training depending on your experience)
+Role Summary:
+The Project/ Program Manager will oversee the planning, implementation, and tracking of specific projects, ensuring they align with company goals and meet Deadlines. This role requires effective coordination with various teams and risk assessment, and adaptability to manage multiple projects simultaneously.
+Key Responsibilities:
+● Define project scope, goals, and deliverables in collaboration with the team.
+● Develop detailed project plans, timelines, and milestones.
+● Coordinate resources and ensure team alignment to meet project objectives.
+● Track project progress, monitor performance, and address any issues that arise.
+● Communicate project status, updates, and potential roadblocks.
+● Conduct post-project evaluations and identify areas for improvement.
+● Knowledge in Asana or jira or any other PM tools.
+Qualifications:
+● Any degree
+● Strong organizational and multitasking skills.
+● Technical Knowledge of the ongoing project is required.
+● Proficiency in project management software ( MS Office, AI tools, Excel).
+● Excellent communication and leadership abilities.
+Location: This internship is in-person at Zuntra Digital's office.
+Address: No 61, 3rd Floor, Estate Main Rd, Developed Plots, Industrial Estate, Perungudi, Chennai, Tamil Nadu 600096.
+Opportunities:
+● Extraordinary performance during the internship may lead to a full-time placement opportunity with Zuntra Digital.
+● A certificate of completion will be awarded at the end of the internship, highlighting
+the skills and contributions made during the program.
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role Title : Product Solutions Associate – Intern
+About Zuntra Digital
+Zuntra Digital is a technology-driven organization focused on building future-ready brands and digital platforms through the integration of strategy, design, media technology, automation, and AI-driven systems. We work across product ecosystems to deliver scalable, data-led, and intelligent solutions for businesses and institutions.
+Role Overview
+Zuntra Digital is seeking a motivated and detail-oriented Product Solutions Associate – Intern to support product planning, solution definition, and cross-functional execution efforts across ongoing digital and platform initiatives. This internship is designed to provide structured exposure to product thinking, solution workflows, requirement analysis, documentation, and platform execution. The intern will work closely with product, design, engineering, and business teams to support the translation of ideas and requirements into functional product solutions. The role requires strong analytical skills, structured thinking, and an interest in technology-driven products and platforms.
+Key Responsibilities
+Product & Solution Support
+● Assist in documenting product requirements, solution scopes, and functional workflows
+● Support the creation of user stories, feature descriptions, and acceptance criteria
+● Assist in translating business needs into structured product documentation
+Cross-Functional Coordination
+● Support coordination between product, design, engineering, and business teams
+● Assist in tracking action items, milestones, and delivery dependencies
+● Participate in internal reviews, product discussions, and sprint planning sessions
+Research & Analysis
+● Conduct basic product, market, or feature research to support solution decisions
+● Assist in competitor analysis, benchmarking, and solution comparisons
+● Support data collection and analysis related to product usage or performance
+Quality & Documentation
+● Assist in QA and UAT preparation by validating features against documented
+requirements
+● Support release notes, internal documentation, and knowledge repositories
+● Ensure accuracy, clarity, and version control of product-related documentation
+Qualifications
+● Final-year student or recent graduate in Business, Engineering, Computer
+Science, Product Management, or related disciplines
+● Strong interest in digital products, platforms, or technology-driven solutions
+● Basic understanding of product development or software lifecycle concepts
+● Strong analytical, organizational, and documentation skills
+● Clear written and verbal communication abilities
+● Proficiency in MS Excel, Google Sheets, or similar productivity tools
+● Familiarity with Agile concepts, SaaS platforms, or digital products is an advantage
+Internship Details
+● Work Mode: In-office
+● Location: Zuntra Digital, Chennai
+● Duration: 3 Months
+Opportunities & Benefits
+● Hands-on exposure to real-world product and platform development
+● Mentorship from product, technology, and strategy teams
+● Opportunity to develop practical product and solutioning skills
+● Certificate of Completion upon successful internship tenure
+● Potential consideration for full-time opportunities based on performance and
+business needs.
+Contact Information
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: AI AGENT & AUTOMATION INTERN
+(3-Month Unpaid or Paid Internship depending on your experience)
+About Zuntra Digital:
+Zuntra Digital is a fast-growing production and web services company, delivering cutting-edge digital solutions. We specialize in helping brands establish a strong online presence through exceptional design, development, and marketing services. Visit us at www.zuntra.com to learn more.
+Job Description:
+We are seeking an enthusiastic AI Agent & Automation Intern to join our operations and tech innovation team. You will assist in building, testing, and deploying AI-powered agents and automation workflows to streamline business processes across departments.
+Key Responsibilities:
+● Build and manage AI agents using platforms like CustomGPT, ChatGPT, or similar.
+● Design and automate workflows using tools such as Zapier, Make (Integromat), and Google Apps Script.
+● Collaborate with operations and tech teams to identify automation opportunities and implement AI solutions.
+● Monitor and maintain AI agent performance and report insights.
+● Explore and implement new no-code and low-code tools to improve efficiency.
+● Document automation pipelines and provide support during internal deployments.
+Qualifications:
+● Familiarity with AI platforms (ChatGPT, CustomGPT) and workflow automation tools (Zapier, Make).
+● Basic understanding of APIs, webhooks, and data triggers.
+● Strong problem-solving skills with a logical and analytical mindset.
+● Interest in emerging AI trends and hands-on learning.
+● Good communication skills and ability to collaborate with cross-functional teams.
+● Prior experience with no-code tools or a portfolio of automation projects is a plus.
+Location: This internship is in-person at Zuntra Digital's office.
+Address: No 61, 3rd Floor, Estate Main Rd, Developed Plots, Industrial Estate, Perungudi,
+Chennai, Tamil Nadu 600096.
+Opportunities:
+● Extraordinary performance during the internship may lead to a full-time placement opportunity with Zuntra Digital.
+● A certificate of completion will be awarded at the end of the internship, highlighting the skills and contributions made during the program.
+For further information contact our HR Janani via hradmin@zuntra.com or via 9150236930
+Note: All the above roles are in-person internships at Zuntra Digital's office. This is a 3-month internship, with the potential for full-time employment and certification based on performance.
+Contact
+ For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: PRODUCT DEVELOPMENT INTERN
+(Compensation may differ based on your level of experience.)
+About Zuntra Digital:
+Zuntra Digital is a fast-growing production and web services company, delivering cutting-edge digital solutions. We specialize in helping brands establish a strong online presence through exceptional design, development, and marketing services. Visit us at www.zuntra.com to learn more.
+Job Description:
+We are looking for a motivated and skilled Product development Intern to join our innovative development team. This role is ideal for individuals passionate about mobile app development and eager to work on real-world projects using Flutter. It’s a great opportunity to sharpen your skills in a supportive, fast-paced environment.
+Key Responsibilities:
+● Develop and maintain cross-platform mobile applications using Flutter.
+● Translate wireframes, UI/UX designs, and product requirements into functional code.
+● Collaborate with stakeholders and provide regular updates.
+● Integrate APIs and third-party services like Firebase, payment gateways, etc.
+● Write clean, efficient, and well-documented code.
+● Debug, troubleshoot, and optimize app performance.
+● Deploy applications to Google Play Store and Apple App Store (as required).
+Qualifications:
+● Recent graduates or candidates with up to one year of experience in Flutter development.
+● Strong foundation in Dart and the Flutter framework.
+● Knowledge of REST APIs and state management tools (Provider, Bloc, etc.).
+● Familiarity with version control systems like Git.
+● Ability to work independently and meet deadlines.
+● Good communication skills and willingness to learn.
+Nice to Have:
+● Experience with Firebase services (Auth, Firestore, Push Notifications).
+● Familiarity with platform-specific features like camera, geolocation.
+● Understanding of app store deployment processes.
+● Exposure to UI/UX tools like Figma or Adobe XD.
+Location:
+This internship is in-person at Zuntra Digital’s office.
+Address:
+No 61, 3rd Floor, Estate Main Rd, Developed Plots, Industrial Estate,
+Perungudi, Chennai, Tamil Nadu 600096.
+Opportunities:
+● Exceptional performers during the internship may be offered a full-time position at
+Zuntra Digital.
+● A certificate of completion will be awarded at the end of the internship, acknowledging the skills and contributions made.
+Contact:
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role Title: No-Code Web Development Associate – Wix (Intern)
+About Zuntra Digital
+Zuntra Digital is a technology-driven organization focused on building future-ready brands and digital platforms through the integration of strategy, design, media technology, automation, and AI-driven systems. We design, build, and scale digital experiences across web, product, and platform ecosystems for businesses and institutions.
+Role Overview
+Zuntra Digital is seeking a creative and execution-focused No-Code Web Development Associate – Wix (Intern) for a 3-month full-time internship to support the design, development, and optimization of websites using the Wix platform. This internship provides structured exposure to no-code web development, UX implementation, content integration, and website optimization. The intern will work closely with design, product, and marketing teams to build responsive, brand-aligned, and conversion-oriented websites.
+Key Responsibilities
+Website Development & Implementation
+● Assist in building and updating websites using Wix Editor / Wix Studio
+● Implement layouts, navigation structures, and page components based on briefs or wireframes
+● Ensure websites are responsive across desktop, tablet, and mobile devices Design, Content & UX Support
+● Support implementation of brand-aligned UI elements including typography, color systems, and imagery
+● Assist with content uploads, media integration, forms, and interactive sections
+● Support basic UX improvements to enhance usability and user flow
+Functionality & Optimization
+● Assist in setting up Wix features such as blogs, CMS collections, dynamic pages, and contact forms
+● Support basic SEO implementation including metadata, page structure, and site performance
+● Test website functionality, load performance, and cross-browser compatibility
+Maintenance & Documentation
+● Support routine website updates, fixes, and content changes
+● Assist in maintaining documentation for site structure, components, and workflows
+● Ensure quality checks, version control, and structured handover documentation Qualifications
+● Final-year student or recent graduate in Design, Computer Applications, Digital Media, Marketing, or related disciplines
+● Familiarity with Wix or other no-code platforms (Webflow, Squarespace, etc.)
+● Basic understanding of web design principles and responsive layouts
+● Strong attention to detail and visual consistency
+● Ability to work with structured briefs and timelines
+● Good written and verbal communication skills
+● Familiarity with basic SEO concepts is an advantage
+Internship Details
+● Internship Type: Full-time Internship
+● Duration: 3 Months
+● Work Mode: In-office
+● Location: Zuntra Digital, Chennai
+● Stipend: Based on skill level and prior experience- assigned upon completion of a probationary period
+Opportunities & Benefits
+● Hands-on experience building live websites and digital platforms
+● Exposure to no-code tools, UX workflows, and modern web practices
+● Mentorship from experienced designers and developers
+● Opportunity to build a professional portfolio
+● Certificate of Completion upon successful internship tenure
+● Potential consideration for full-time roles based on performance and organizational needs
+Contact Information
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role Title: Social Media Marketing Intern
+About Zuntra Digital:
+Empowering Ideas, Shaping Futures
+Zuntra Digital blends creativity, technology, and strategy to power future-ready brands. From media tech and content platforms to automation and AI innovation, we build solutions that help businesses create, scale, and lead in the digital age.
+📍 www.zuntra.com
+Job Description:
+If you’re detail-oriented, love working with numbers, and get a kick out of keeping things organized and accurate, this role is for you. As an Account Associate Intern, you’ll be the go-to person for supporting our finance operations, ensuring our budgets, expenses, and compliance processes run smoothly.
+Key Responsibilities:
+● Create Content That Pops — Reels, posts, stories, carousels, memes... whatever it takes to get noticed.
+● Plan & Post Like a Pro — Schedule content and keep our feeds alive & buzzing.
+● Engage & Build Communities — Reply to DMs, comments, and interact with followers like they’re your people.
+● Spot Trends Early — Stay on top of trending audios, hashtags, and formats.
+● Track & Improve — Check insights, see what’s working, and tweak for better reach.
+● Team Collabs — Work with designers, content creators, and marketers to deliver campaigns that actually work.
+● Influencer Connects — Help identify and collaborate with micro and macro influencers.
+Qualifications:
+● You’re a recent grad or a self-taught creative with 0–1 year of experience in social media.
+● You’ve got a way with words and a love for visuals.
+● You know your way around Instagram, LinkedIn, Facebook, and maybe even YouTube.
+● Bonus: You’ve played with Canva, CapCut, or Photoshop before.
+● You’re curious, adaptable, and ready to learn at lightning speed.
+Location:
+This internship is in-person at Zuntra Digital’s office.
+Address: No 61, 3rd Floor, Estate Main Rd, Developed Plots, Industrial Estate, Perungudi,
+Chennai, Tamil Nadu 600096.
+Opportunities:
+   * Extraordinary performance during the internship may lead to a full-time placement opportunity with Zuntra Digital.
+   * A certificate of completion will be awarded at the end of the internship, highlighting the skills and contributions made during the program.        
+For further information, contact our Executive HR Manager, Kumudapriya V., at hrofficial@zuntra.com or 9150236930.
+Note: All the above roles are in-person internships at Zuntra Digital’s office. This is a
+3-month unpaid internship, with the potential for full-time employment and certification based on Performance.
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: VIDEO EDITOR 
+About Zuntra Digital:
+Zuntra Digital is a fast-growing production and web services company delivering cutting-edge digital solutions. We specialize in helping brands build a strong online presence through impactful design, development, marketing, and media services. Visit us at www.zuntra.com to learn more.
+Job Description:
+We are seeking a creative and detail-oriented Video Editor Intern to join our media and marketing team. The intern will work closely with content creators, designers, and marketers to edit engaging video content for digital platforms, promotional campaigns, and brand storytelling.
+Key Responsibilities:
+   * Edit and produce high-quality videos for social media, websites, ads, and marketing campaigns.
+   * Assist in creating reels, short-form videos, promotional videos, and corporate content.
+   * Collaborate with the marketing and creative teams to understand project requirements and deliver compelling visual stories.
+   * Ensure videos align with brand guidelines, tone, and messaging across platforms.
+   * Add effects, transitions, sound, subtitles, and basic motion graphics where required.
+   * Utilize tools such as Adobe Premiere Pro, After Effects, Canva, CapCut, or similar video editing software.
+   * Explore and incorporate AI-powered video editing tools to enhance productivity and creativity.
+   * Stay updated with video trends, formats, and platform-specific requirements.
+Qualifications:
+   * Proficiency in video editing tools such as Adobe Premiere Pro, After Effects, CapCut, Canva, or similar software is required.
+   * Basic knowledge or willingness to learn AI tools related to video editing and content creation.
+   * Understanding of video composition, pacing, storytelling, and visual aesthetics.
+   * Creative mindset with attention to detail and consistency.
+   * Good communication skills and ability to work collaboratively in a team environment.
+   * Prior experience in video editing is preferred; portfolio or sample work submission is encouraged.
+Location:
+This internship is in-person at Zuntra Digital’s office.
+Address: No 61, 3rd Floor, Estate Main Rd, Developed Plots, Industrial Estate, Perungudi, Chennai, Tamil Nadu 600096.
+Opportunities:
+   * Exceptional performance during the internship may lead to a full-time placement at Zuntra Digital.
+   * A Certificate of Completion will be awarded at the end of the internship, recognizing skills developed and contributions made.
+Contact:
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: Business Development Executive (Full-Time)
+About Zuntra Digital
+Zuntra Digital is seeking a proactive, target-driven, and growth-oriented Business Development Executive to join our team on a full-time basis. This role is ideal for professionals who are passionate about driving revenue, building long-term client relationships, and contributing to strategic business expansion. You will work closely with leadership, marketing, and operations teams to accelerate company growth.
+Responsibilities:
+   * Identify and develop new business opportunities through cold calling, networking, referrals, and market research.
+   * Generate qualified leads and maintain a strong and active sales pipeline.
+   * Conduct client meetings, presentations, and product/service demonstrations.
+   * Understand client business needs and propose customized digital solutions.
+   * Prepare proposals, quotations, and negotiate contracts effectively.
+   * Achieve monthly, quarterly, and annual sales targets.
+   * Build and maintain strong relationships with new and existing clients.
+   * Coordinate with internal teams to ensure smooth onboarding and successful project execution.
+   * Track and update all sales activities in CRM systems.
+   * Analyze market trends and competitor strategies to identify growth opportunities.
+Qualifications:
+   * MBA (Master of Business Administration) – Mandatory
+   * 1–3 years of experience in Business Development, Sales, or B2B Marketing
+   * Strong communication and negotiation skills
+   * Excellent interpersonal and relationship-building abilities
+   * Self-motivated with a results-driven mindset
+   * Ability to work independently and as part of a team
+   * Strong time management and organizational skills
+Preferred Skills:
+   * Experience in digital marketing, IT services, or agency sales
+   * Familiarity with CRM tools and MS Office
+   * Understanding of B2B sales processes and sales cycle management
+   * Strong presentation and persuasion skills
+   * Ability to handle client objections and close deals effectively
+What We Offer:
+   * Full-time employment in a fast-growing digital company
+   * Competitive salary with performance-based incentives
+   * Clear career growth opportunities
+   * Exposure to diverse industries and business models
+   * Supportive and collaborative work environment
+Join Us:
+If you are passionate about sales, growth strategies, and building strong client relationships, we encourage you to apply for the Business Development Executive (Full-Time) role at Zuntra Digital. Submit your resume to be considered and grow with us.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: Business Development Intern
+About Zuntra Digital
+Zuntra Digital is looking for an enthusiastic and motivated Business Development Intern to support our sales and growth initiatives. This internship provides hands-on exposure to B2B sales, client acquisition, digital solutions selling, and strategic market expansion. The intern will work closely with the Business Development and Marketing teams to identify opportunities, generate leads, and contribute to revenue growth.
+Responsibilities:
+   * Assist in identifying new business opportunities through market research and lead generation activities.
+   * Support cold calling, email outreach, LinkedIn prospecting, and networking efforts.
+   * Maintain and update the sales pipeline and CRM database.
+   * Help schedule client meetings and prepare presentations and proposals.
+   * Conduct competitor analysis and market trend research.
+   * Assist in preparing quotations and documentation for client proposals.
+   * Follow up with potential clients and maintain regular communication.
+   * Coordinate with internal teams to support smooth onboarding of new clients.
+   * Track daily and weekly sales activities and prepare reports.
+   * Support the Business Development team in achieving monthly targets.
+Qualifications:
+      * MBA (Pursuing or Completed) – Mandatory
+      * Strong verbal and written communication skills
+      * Good interpersonal and relationship-building abilities
+      * Self-driven and eager to learn sales strategies
+      * Ability to work independently and in a team environment
+Preferred Skills:
+         * Interest in digital marketing, IT services, or agency business models
+         * Basic understanding of B2B sales processes
+         * Familiarity with MS Office (Excel, PowerPoint, Word)
+         * Knowledge of CRM tools is an added advantage
+         * Strong research and analytical skills
+What We Offer:
+            * Hands-on experience in business development and client acquisition
+            * Exposure to real-time sales strategies and digital solutions
+            * Opportunity to work in a fast-growing digital company
+            * Performance-based incentives (if applicable)
+            * Mentorship and career growth opportunities
+            * Certificate of Internship upon successful completion
+Join Us:
+If you are passionate about business growth, client engagement, and learning practical sales skills, apply for the Business Development Intern role at Zuntra Digital. Submit your resume to kick-start your career in business development.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: Software QA Engineer (Full-Time)
+About Zuntra Digital
+Zuntra Digital is looking for a detail-oriented and analytical Software QA Engineer to ensure the quality, reliability, and performance of our digital products and platforms. This role offers an opportunity to work closely with development, product, and operations teams to deliver high-quality software solutions that meet client expectations and industry standards.
+Responsibilities:
+               * Design, develop, and execute test plans, test cases, and test scripts.
+               * Perform manual and automated testing on web and mobile applications.
+               * Identify, document, and track bugs using issue-tracking tools.
+               * Collaborate with developers to resolve defects and improve product quality.
+               * Conduct functional, regression, integration, and performance testing.
+               * Ensure software meets business requirements and user expectations.
+               * Participate in requirement analysis and review meetings.
+               * Maintain detailed documentation of test processes and results.
+               * Support UAT (User Acceptance Testing) and deployment processes.
+               * Continuously improve QA methodologies and testing processes.
+Qualifications:
+               * Bachelor’s degree in Computer Science, IT, or related field.
+               * 1–3 years of experience in software testing or quality assurance.
+               * Strong understanding of SDLC and STLC processes.
+               * Knowledge of manual and automation testing concepts.
+               * Good analytical and problem-solving skills.
+Preferred Skills:
+               * Experience with automation tools (Selenium or similar).
+               * Familiarity with API testing tools (Postman, etc.).
+               * Knowledge of Agile/Scrum methodology.
+               * Basic understanding of databases and SQL.
+               * Strong documentation and reporting skills.
+What We Offer:
+               * Opportunity to work in a fast-growing digital company.
+               * Exposure to real-time projects across industries.
+               * Performance-based incentives and career growth opportunities.
+               * Supportive and collaborative work environment.
+Join Us:
+If you are passionate about software quality, testing methodologies, and delivering flawless digital experiences, we encourage you to apply for the Software QA Engineer role at Zuntra Digital. Submit your resume to be considered.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: Software QA Engineer Intern
+About Zuntra Digital
+Zuntra Digital is offering an exciting internship opportunity for aspiring Software QA Engineers who are eager to gain hands-on experience in software testing and quality assurance. This internship provides real-time exposure to live projects, industry practices, and mentorship from experienced professionals.
+Responsibilities:
+               * Assist in preparing test cases and test scenarios.
+               * Perform manual testing of web and mobile applications.
+               * Report and document bugs with clear reproduction steps.
+               * Support regression and functional testing activities.
+               * Work closely with developers to understand application workflows.
+               * Participate in daily stand-ups and QA review meetings.
+               * Maintain test reports and documentation.
+               * Learn and apply basic automation testing concepts.
+Qualifications:
+               * Pursuing or completed B.E/B.Tech/B.Sc/M.Sc in Computer Science, IT, or related field.
+               * Basic understanding of software development lifecycle.
+               * Strong attention to detail and analytical thinking.
+               * Willingness to learn and adapt to new tools and technologies.
+Preferred Skills:
+               * Basic knowledge of manual testing concepts.
+               * Familiarity with any programming language (Java/Python – added advantage).
+               * Understanding of web applications and databases.
+               * Good communication and teamwork skills.
+What We Offer:
+               * Hands-on experience with live projects.
+               * Mentorship from experienced QA professionals.
+               * Internship completion certificate.
+               * Opportunity for full-time employment based on performance.
+               * Collaborative and learning-focused work environment.
+Join Us:
+If you are enthusiastic about building a career in software testing and quality assurance, apply for the Software QA Engineer Intern position at Zuntra Digital. Submit your resume to begin your professional journey with us.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: Product Testing Executive (Full-Time)
+About Zuntra Digital
+Zuntra Digital is looking for a dedicated and detail-oriented Product Testing Executive to join our team on a full-time basis. This role plays a critical part in ensuring the quality, functionality, and performance of our digital products. You will work closely with the development, UI/UX, and product teams to deliver reliable, high-performing, and user-friendly digital solutions to our clients.
+Responsibilities:
+               * Perform manual testing of web applications, mobile applications, and digital platforms.
+               * Develop, review, and execute detailed test cases, test plans, and test scenarios.
+               * Identify, document, and track defects using bug tracking tools.
+               * Conduct functional testing, regression testing, integration testing, and User Acceptance Testing (UAT).
+               * Verify fixes and ensure issues are resolved before product release.
+               * Collaborate with developers and designers to improve product quality and usability.
+               * Ensure products meet defined business requirements and client expectations.
+               * Prepare and maintain comprehensive test reports and documentation.
+               * Participate in sprint reviews and provide feedback for continuous improvement.
+               * Suggest enhancements to improve overall product performance and user experience.
+Qualifications:
+               * B.E / B.Tech / BCA / MCA or related field
+               * 1–3 years of experience in product testing or quality assurance
+               * Strong analytical and problem-solving skills
+               * High attention to detail and accuracy
+               * Good written and verbal communication skills
+               * Ability to work independently and meet deadlines
+Preferred Skills:
+               * Knowledge of Software Development Life Cycle (SDLC) and Software Testing Life Cycle (STLC)
+               * Familiarity with manual testing methodologies
+               * Basic understanding of automation testing tools (added advantage)
+               * Experience with bug tracking tools such as Jira or similar platforms
+               * Understanding of web technologies and mobile app workflows
+What We Offer:
+               * Full-time employment in a fast-growing digital company
+               * Competitive salary package
+               * Performance-based growth opportunities
+               * Exposure to diverse digital projects and industries
+               * Supportive and collaborative work culture
+Join Us:
+If you are passionate about ensuring product quality and delivering seamless digital experiences, apply for the Product Testing Executive (Full-Time) role at Zuntra Digital. Submit your resume to be considered and take the next step in your QA career.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: Product Testing Intern
+About Zuntra Digital
+Zuntra Digital is seeking a detail-oriented and enthusiastic Product Testing Intern to support our Quality Assurance team. This internship offers hands-on experience in testing web and mobile applications, identifying bugs, and ensuring high-quality digital product delivery. The intern will work closely with developers, designers, and product managers to enhance overall product performance and user experience.
+Responsibilities:
+               * Assist in testing web applications, mobile apps, and digital platforms.
+               * Execute test cases and document test results accurately.
+               * Identify, report, and track bugs under the guidance of senior testers.
+               * Support functional testing, regression testing, and usability testing.
+               * Participate in User Acceptance Testing (UAT) activities.
+               * Help prepare test documentation and daily/weekly testing reports.
+               * Coordinate with development teams to verify bug fixes.
+               * Provide feedback on user experience and product improvements.
+               * Learn and follow SDLC and STLC processes.
+Qualifications:
+               *  B.E / B.Tech / BCA / MCA (Pursuing or Completed)
+               * Basic understanding of software testing concepts
+               * Strong analytical and observation skills
+               * High attention to detail
+               * Good written and verbal communication skills
+               * Willingness to learn and adapt in a fast-paced environment
+Preferred Skills:
+               * Basic knowledge of manual testing methodologies
+               * Understanding of web and mobile application workflows
+               * Familiarity with MS Office tools
+               * Awareness of bug tracking tools (Jira or similar) is an added advantage
+               * Interest in QA, product management, or software development
+What We Offer:
+               * Hands-on experience in real-time digital projects
+               * Exposure to product lifecycle and quality assurance processes
+               * Mentorship from experienced professionals
+               * Internship certificate upon successful completion
+               * Potential opportunity for full-time employment based on performance
+Join Us:
+If you are passionate about technology, quality assurance, and improving digital experiences, apply for the Product Testing Intern position at Zuntra Digital. Submit your resume and begin your journey in the field of product quality and testing.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: Data Analytics Engineer (Full-Time)
+About Zuntra Digital
+Zuntra Digital is seeking a skilled and analytical Data Analytics Engineer to transform raw data into meaningful insights that drive strategic business decisions. This role offers the opportunity to work with cross-functional teams to build data pipelines, develop dashboards, and implement data-driven solutions across digital platforms.
+Responsibilities:
+               * Design, develop, and maintain scalable data pipelines and data models.
+               * Collect, clean, and analyze structured and unstructured data.
+               * Develop dashboards and reports to support business decision-making.
+               * Collaborate with software development and product teams to integrate analytics solutions.
+               * Perform data validation, quality checks, and performance optimization.
+               * Automate data processing workflows.
+               * Interpret trends and patterns to provide actionable insights.
+               * Ensure data accuracy, integrity, and security compliance.
+               * Work with stakeholders to understand data requirements and deliver solutions.
+               * Support predictive analytics and basic machine learning initiatives (if applicable).
+Qualifications:
+               * Bachelor’s degree in Computer Science, Data Science, IT, or related field.
+               * 1–3 years of experience in data analytics or data engineering.
+               * Strong knowledge of SQL and database management.
+               * Proficiency in Python, R, or similar programming language.
+               * Understanding of data visualization tools and techniques.
+Preferred Skills:
+               * Experience with Power BI, Tableau, or similar BI tools.
+               * Familiarity with cloud platforms (AWS, Azure, or GCP).
+               * Knowledge of ETL processes and data warehousing concepts.
+               * Basic understanding of machine learning concepts.
+               * Strong analytical and problem-solving skills.
+What We Offer:
+               * Opportunity to work in a fast-growing digital company.
+               * Exposure to real-time projects across industries.
+               * Performance-based incentives and career growth opportunities.
+               * Supportive and collaborative work environment.
+Join Us:
+If you are passionate about data, analytics, and transforming insights into impactful solutions, apply for the Data Analytics Engineer role at Zuntra Digital. Submit your resume to be considered.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: Data Analytics Engineer Intern
+About Zuntra Digital
+Zuntra Digital is offering an exciting internship opportunity for aspiring Data Analytics Engineers who are eager to gain hands-on experience in real-time data projects. This internship provides exposure to data analysis, reporting tools, and industry best practices under expert mentorship.
+Responsibilities:
+               * Assist in data collection, cleaning, and preprocessing tasks.
+               * Support in developing dashboards and reports.
+               * Perform exploratory data analysis (EDA).
+               * Help maintain databases and structured datasets.
+               * Generate insights and summarize findings for internal teams.
+               * Assist in automating reports and workflows.
+               * Participate in team discussions and analytics review meetings.
+               * Document processes and maintain data reports.
+Qualifications:
+               * Pursuing or completed B.E/B.Tech/B.Sc/M.Sc in Computer Science, Data Science, IT, or related field.
+               * Basic knowledge of SQL and Excel.
+               * Understanding of data analysis concepts.
+               * Strong analytical and logical thinking skills.
+               * Willingness to learn new tools and technologies.
+Preferred Skills:
+               * Basic knowledge of Python or R.
+               * Familiarity with Power BI, Tableau, or Excel dashboards.
+               * Understanding of databases and data visualization concepts.
+               * Good communication and teamwork skills.
+What We Offer:
+               * Hands-on experience with live data projects.
+               * Mentorship from experienced professionals.
+               * Internship completion certificate.
+               * Opportunity for full-time employment based on performance.
+               * Collaborative and learning-focused work environment.
+Join Us:
+If you are enthusiastic about building a career in data analytics and engineering, apply for the Data Analytics Engineer Intern position at Zuntra Digital and begin your professional journey with us.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: AI Content Generation Intern
+About Zuntra Digital
+Zuntra Digital is offering an exciting internship opportunity for aspiring AI Content Generation Interns who are passionate about artificial intelligence and digital creativity. This internship provides hands-on experience in AI-driven content creation, prompt engineering, brand communication, and content strategy, allowing interns to work on real-time projects while learning industry best practices and ethical AI usage under expert mentorship.
+Overview
+Zuntra Digital is looking for a creative and AI-driven AI Content Generation Intern who is passionate about using Artificial Intelligence to transform ideas into powerful marketing content. This role focuses on leveraging AI tools for text, image, and video-based content creation. The ideal candidate should be highly innovative, prompt-oriented, and capable of converting raw inputs into compelling marketing assets using advanced AI technologies.
+Responsibilities
+               * Utilize AI tools for image-to-text conversion, visual analysis, and AI-based caption generation for branding and marketing campaigns.
+               * Extract key marketing insights and written content from videos using AI (video-to-text transcription, highlight extraction, frame-level analysis).
+               * Generate AI-powered marketing creatives including:
+               * Social media posts
+               * Ad copies
+               * Captions
+               * Email campaigns
+               * Blog outlines
+               * Promotional scripts
+                  * Create structured and optimized prompts to generate high-quality outputs from tools such as ChatGPT, Gemini, Midjourney, Leonardo AI, and Canva AI.
+                  * Develop AI-generated thumbnails, creatives, and campaign visuals using text-to-image and image-generation tools.
+                  * Repurpose long-form content into short-form AI-optimized marketing formats.
+                  * Collaborate with the marketing and design teams to refine AI-generated outputs into campaign-ready assets.
+                  * Continuously experiment with new AI tools to enhance creativity, quality, and speed of content production.
+Qualifications
+                  * Strong understanding of AI content generation tools (ChatGPT, Gemini, Midjourney, Leonardo AI, Canva AI, etc.).
+                  * Ability to write structured, precise, and high-performing prompts.
+                  * Knowledge of image-to-text and video-to-text AI tools.
+                  * Basic understanding of digital marketing concepts (branding, audience targeting, engagement).
+                  * Creative mindset with attention to detail.
+                  * Ability to manage multiple content pieces simultaneously.
+Preferred Skills
+                  * Experience using AI-powered video editing tools.
+                  * Familiarity with content repurposing strategies.
+                  * A portfolio showcasing AI-generated content or creative experiments.
+What We Offer
+At Zuntra Digital, you will gain hands-on exposure to real-time AI content implementation. You will work in a technology-driven environment that encourages experimentation, creativity, and innovation while building practical expertise in AI-powered marketing workflows.
+Note: The internship period for this role is 3 months. 
+Join Us
+If you are passionate about Artificial Intelligence and content innovation, we encourage you to apply for the AI Content Generation Intern role at Zuntra Digital.
+Submit your resume and portfolio (if available) demonstrating your experience with AI tools and content creation projects.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+Zuntra Digital Private Limited
+Role: AI Marketing & Automation Intern
+Zuntra Digital is seeking a tech-savvy and analytical AI Marketing & Automation Intern to integrate Artificial Intelligence into digital marketing strategies and campaign optimization. This role focuses on AI-driven automation, performance tracking, competitor analysis, and workflow optimization. The ideal candidate should be capable of combining AI tools with marketing strategy to improve efficiency and campaign outcomes.
+Responsibilities
+                  * Integrate AI tools into marketing workflows to improve campaign efficiency and performance tracking.
+                  * Analyze competitor content and campaigns using AI-driven insights and generate actionable marketing strategies.
+                  * Use AI for campaign optimization, audience analysis, and engagement tracking.
+                  * Develop AI-powered automation systems using tools such as Make and Zapier for:
+                  * Social media scheduling
+                  * Lead capture automation
+                  * Email campaign workflows
+                  * Performance reporting
+                  * Optimize content workflows by combining AI generation tools with analytics platforms.
+                  * Monitor AI-generated campaign performance and refine prompts for better outputs.
+                  * Assist in AI-based ad creative testing and performance comparison.
+                  * Stay updated with emerging AI tools and trends in digital marketing automation.
+Qualifications
+                     * Strong understanding of AI marketing tools and automation platforms (ChatGPT, Gemini, Make, Zapier, Canva AI, etc.).
+                     * Knowledge of digital marketing fundamentals including ads, branding, engagement strategy, and campaign metrics.
+                     * Analytical mindset with ability to interpret AI-generated data insights.
+                     * Ability to work independently and manage multiple marketing initiatives.
+                     * Understanding of AI-based workflow integration.
+Preferred Skills
+                        * Basic knowledge of performance marketing and paid ads.
+                        * Familiarity with AI-based analytics tools.
+                        * Understanding of SEO and growth marketing strategies.
+                        * Experience building simple automation flows using AI tools.
+                        * Portfolio demonstrating AI-powered marketing experiments or campaign optimization projects.
+What We Offer
+At Zuntra Digital, you will work in an innovation-driven environment where Artificial Intelligence powers marketing execution. You will gain hands-on experience in AI automation, real-time campaign analysis, and AI-driven strategic decision-making.
+Join Us
+If you are passionate about Artificial Intelligence and its impact on marketing transformation, we encourage you to apply for the AI Marketing & Automation Intern role at Zuntra Digital.
+Submit your resume, cover letter, and portfolio (if available) showcasing your AI marketing and automation projects.
+Contact
+For further information, contact:| hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Frontend Developer Intern 
+Job Description :
+We are looking for a motivated and detail-oriented Frontend Developer Intern to support application interface development and improve user interactions. The ideal candidate will have strong coding skills, attention to detail, and the ability to collaborate with teams while ensuring efficient frontend execution.
+Responsibilities :
+                        * Assist in developing responsive web and mobile interfaces.
+                        * Support integration of APIs and frontend functionalities.
+                        * Coordinate with design and backend teams for smooth development.
+                        * Maintain frontend documentation including reports and updates.
+                        * Identify interface issues and suggest performance improvements.
+                        * Support evaluation of application usability and responsiveness.
+Qualifications and Skills :
+                        * Bachelor’s degree in Computer Science or related field.
+                        * No prior professional experience is required.
+                        * Strong analytical, coding, and problem-solving skills.
+                        * Familiarity with React, HTML, CSS, or JavaScript is a plus.
+                        * Good communication and teamwork abilities.
+Location:
+This internship is in-person at Zuntra Digital office.
+📍 Address:
+No 61, 3rd Floor, Estate Main Rd, Developed Plots, Industrial Estate, Perungudi, Chennai, Tamil Nadu 600096.
+Opportunities
+                        * Extraordinary performance during the internship may lead to a full-time placement opportunity with Rent It.
+                        * A certificate of completion will be awarded at the end of the internship, highlighting the skills and contributions made during the program.
+                        * Direct impact on application interface and platform development.
+                        * Potential career path within the engineering and technology division.
+Note :
+All the above roles are in-person internships at Zuntra Digital office. This is a 3-month internship, and certification based on performance.
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI MARKETING STRATEGIST INTERN
+About Zuntra Digital
+Zuntra Digital is seeking an AI Marketing Strategist Intern to support marketing initiatives using AI-powered tools. This internship offers practical exposure to AI-driven content creation, campaign planning, and digital marketing strategies while helping you build valuable industry skills.
+Responsibilities:
+                        * Assist in creating marketing content using AI tools.
+                        * Support social media and digital marketing campaigns.
+                        * Conduct basic market and competitor research using AI.
+                        * Help generate creative campaign ideas for products and services.
+                        * Monitor campaign performance and prepare simple reports.
+                        * Collaborate with different teams to support marketing activities.
+Qualifications:
+                        * Basic knowledge of AI tools such as ChatGPT, Gemini, Claude, or similar platforms.
+                        * Interest in marketing, branding, or digital content.
+                        * Good written communication skills.
+                        * Creativity and willingness to learn.
+                        * Ability to work independently and in a team.
+Preferred Skills:
+                        * Familiarity with Canva or similar design tools.
+                        * Basic understanding of social media platforms.
+                        * Interest in prompt engineering and AI-assisted content creation.
+                        * Curiosity to explore emerging AI tools.
+What We Offer:
+                        * Hands-on experience with AI-powered marketing.
+                        * Guidance from experienced professionals.
+                        * Opportunity to work on live campaigns.
+                        * A collaborative learning environment.
+Join Us:
+If you're passionate about AI and marketing, we'd love to have you join our team. Submit your resume to begin your AI marketing journey with Zuntra Digital.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI GTM STRATEGIST INTERN
+About Zuntra Digital
+Zuntra Digital is looking for an AI GTM Strategist Intern to assist in planning product launches and go-to-market activities using AI tools. This internship provides exposure to market research, customer insights, and launch planning.
+Responsibilities:
+                        * Research target audiences using AI tools.
+                        * Assist in preparing product positioning ideas.
+                        * Help create launch content and marketing materials.
+                        * Analyze competitors and market trends.
+                        * Support campaign planning and execution.
+                        * Prepare simple reports and presentations.
+Qualifications:
+                        * Familiarity with AI tools like ChatGPT or Gemini.
+                        * Interest in marketing, products, or technology.
+                        * Good communication and research skills.
+                        * Eagerness to learn new concepts.
+Preferred Skills:
+                        * Basic knowledge of digital marketing.
+                        * Canva or presentation design experience.
+                        * Curiosity about product launches.
+                        * Strong organizational skills.
+What We Offer:
+                        * Exposure to real product launches.
+                        * Mentorship from experienced professionals.
+                        * Practical experience using AI in business strategy.
+                        * Opportunity to build an impressive portfolio.
+Join Us:
+If you're excited about AI and product strategy, apply today and gain practical experience with our growing team.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI BUSINESS OPERATIONS INTERN
+About Zuntra Digital
+Zuntra Digital is seeking an AI Business Operations Intern to help improve workflows and daily operations using AI tools. This internship offers practical exposure to automation, documentation, and operational efficiency.
+Responsibilities:
+                        * Assist in documenting workflows.
+                        * Use AI tools to improve operational processes.
+                        * Help organize project information and reports.
+                        * Support different departments with AI-assisted tasks.
+                        * Identify opportunities for workflow improvements.
+                        * Maintain project documentation.
+Qualifications:
+                        * Basic knowledge of AI productivity tools.
+                        * Good organizational skills.
+                        * Strong attention to detail.
+                        * Willingness to learn and solve problems.
+Preferred Skills:
+                        * Familiarity with Google Workspace or Microsoft Office.
+                        * Basic understanding of workflow automation.
+                        * Interest in improving business processes.
+                        * Good communication skills.
+What We Offer:
+                        * Hands-on operational experience.
+                        * Exposure to AI-powered workflow management.
+                        * Guidance from experienced professionals.
+                        * Opportunity to work across multiple business functions.
+Join Us:
+If you enjoy organizing, improving processes, and exploring AI, we'd love to hear from you.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI PRODUCT STRATEGY INTERN
+About Zuntra Digital
+Zuntra Digital is looking for an AI Product Strategy Intern to assist in product planning, user research, and feature ideation using AI-powered tools.
+Responsibilities:
+                        * Conduct user and competitor research.
+                        * Assist in feature brainstorming sessions.
+                        * Organize product feedback.
+                        * Support documentation of product ideas.
+                        * Prepare presentations and reports using AI.
+                        * Collaborate with product and design teams.
+Qualifications:
+                        * Interest in technology and digital products.
+                        * Familiarity with AI tools.
+                        * Good analytical thinking.
+                        * Strong communication skills.
+Preferred Skills:
+                        * Basic understanding of product development.
+                        * Canva or presentation tools.
+                        * Curiosity about AI-driven products.
+                        * Ability to organize information.
+What We Offer:
+                        * Practical experience in product strategy.
+                        * Exposure to product development processes.
+                        * Mentorship from experienced professionals.
+                        * Opportunity to contribute to live products.
+Join Us:
+If you're curious about building digital products using AI, we'd love to have you on board.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI PRODUCT SCALABILITY STRATEGIST INTERN
+About Zuntra Digital
+Zuntra Digital is seeking an AI Product Scalability Strategist Intern to support product growth initiatives using AI. You'll learn how digital products scale through automation, user insights, and process improvements.
+Responsibilities:
+                        * Research scalable product ideas.
+                        * Analyze user feedback using AI.
+                        * Assist in identifying growth opportunities.
+                        * Support product documentation.
+                        * Prepare reports using AI tools.
+                        * Work with multiple teams during product planning.
+Qualifications:
+                        * Basic knowledge of AI tools.
+                        * Interest in technology and innovation.
+                        * Good research and communication skills.
+                        * Strong willingness to learn.
+Preferred Skills:
+                        * Basic understanding of digital products.
+                        * Familiarity with spreadsheets.
+                        * Presentation skills.
+                        * Curiosity about startups and product growth.
+What We Offer:
+                        * Exposure to startup product development.
+                        * Hands-on AI experience.
+                        * Learning opportunities across multiple products.
+                        * Mentorship from professionals.
+Join Us:
+If you're excited about technology, AI, and product growth, apply today.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI GROWTH MARKETING INTERN
+About Zuntra Digital
+Zuntra Digital is looking for an AI Growth Marketing Intern to help grow our digital products through AI-powered marketing strategies. This role is ideal for anyone interested in combining creativity with AI.
+Responsibilities:
+                        * Create marketing content using AI.
+                        * Assist in planning growth campaigns.
+                        * Analyze campaign performance.
+                        * Research audience behavior.
+                        * Support social media marketing activities.
+                        * Generate creative marketing ideas.
+Qualifications:
+                        * Familiarity with AI tools.
+                        * Interest in digital marketing.
+                        * Good communication skills.
+                        * Creative mindset.
+Preferred Skills:
+                        * Canva or basic design tools.
+                        * Social media knowledge.
+                        * Prompt writing skills.
+                        * Basic analytical thinking.
+What We Offer:
+                        * Real-world marketing experience.
+                        * Exposure to AI-driven campaigns.
+                        * Professional mentorship.
+                        * Opportunity to work on multiple brands.
+Join Us:
+If you enjoy creating, experimenting, and learning with AI, we'd love to meet you.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI REVENUE OPERATIONS INTERN
+About Zuntra Digital
+Zuntra Digital is looking for an AI Revenue Operations Intern to support business growth by using AI tools for organizing sales data, generating insights, and improving operational efficiency. This internship offers practical exposure to how AI can streamline revenue and business processes.
+Responsibilities:
+                        * Assist in organizing and maintaining sales and operational data.
+                        * Use AI tools to generate summaries and reports.
+                        * Support lead tracking and customer data management.
+                        * Help identify trends using AI-powered analysis.
+                        * Collaborate with sales and marketing teams.
+                        * Maintain accurate documentation of activities.
+Qualifications:
+                        * Basic knowledge of AI tools like ChatGPT, Gemini, Claude, or similar platforms.
+                        * Good communication and organizational skills.
+                        * Interest in business operations and technology.
+                        * Willingness to learn and adapt.
+Preferred Skills:
+                        * Basic knowledge of Google Sheets or Microsoft Excel.
+                        * Familiarity with CRM tools is a plus.
+                        * Interest in data analysis.
+                        * Ability to work with attention to detail.
+What We Offer:
+                        * Hands-on experience with AI-powered business operations.
+                        * Exposure to real-world revenue processes.
+                        * Mentorship from experienced professionals.
+                        * Opportunity to develop practical workplace skills.
+Join Us:
+If you're eager to explore how AI is transforming business operations, we'd love to have you on our team.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI MARKET INTELLIGENCE INTERN
+About Zuntra Digital
+Zuntra Digital is seeking an AI Market Intelligence Intern to help research market trends, customer behavior, and competitor activities using AI-powered research tools.
+Responsibilities:
+                        * Conduct market and competitor research using AI.
+                        * Prepare simple research reports.
+                        * Collect and organize industry insights.
+                        * Support product and marketing teams with research findings.
+                        * Monitor emerging technology trends.
+                        * Create presentations summarizing research.
+Qualifications:
+                        * Familiarity with AI research tools.
+                        * Good analytical and communication skills.
+                        * Curiosity about technology and market trends.
+                        * Ability to organize information effectively.
+Preferred Skills:
+                        * Basic presentation skills.
+                        * Familiarity with spreadsheets.
+                        * Strong internet research skills.
+                        * Interest in startups and digital businesses.
+What We Offer:
+                        * Experience working on live market research.
+                        * Practical exposure to AI-assisted research.
+                        * Mentorship from experienced professionals.
+                        * Opportunity to contribute to strategic decisions.
+Join Us:
+If you enjoy research, learning new technologies, and exploring industry trends, apply today.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI WORKFLOW AUTOMATION INTERN
+About Zuntra Digital
+Zuntra Digital is looking for an AI Workflow Automation Intern to assist in simplifying repetitive tasks using AI and no-code automation tools.
+Responsibilities:
+                        * Identify repetitive workflows suitable for automation.
+                        * Assist in creating AI-assisted workflows.
+                        * Document automation processes.
+                        * Test automated workflows.
+                        * Support teams in improving productivity.
+                        * Learn and explore new automation tools.
+Qualifications:
+                        * Basic familiarity with AI tools.
+                        * Strong problem-solving mindset.
+                        * Good communication skills.
+                        * Interest in automation and productivity.
+Preferred Skills:
+                        * Familiarity with Zapier, Make, or n8n is a plus.
+                        * Basic understanding of workflow automation.
+                        * Curiosity to explore AI technologies.
+                        * Ability to learn independently.
+What We Offer:
+                        * Exposure to automation projects.
+                        * Practical experience with AI workflows.
+                        * Mentorship and learning opportunities.
+                        * Collaborative work environment.
+Join Us:
+If you enjoy making work easier through technology and AI, we'd love to hear from you.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI SALES ENABLEMENT INTERN
+About Zuntra Digital
+Zuntra Digital is looking for an AI Sales Enablement Intern to support sales teams by creating AI-assisted sales resources, customer insights, and business presentations.
+Responsibilities:
+                        * Assist in preparing sales materials using AI.
+                        * Organize customer information.
+                        * Help generate personalized outreach content.
+                        * Support proposal and presentation preparation.
+                        * Conduct competitor research.
+                        * Maintain sales documentation.
+Qualifications:
+                        * Basic knowledge of AI tools.
+                        * Good communication skills.
+                        * Interest in sales and business development.
+                        * Willingness to learn.
+Preferred Skills:
+                        * Canva or presentation software knowledge.
+                        * Familiarity with CRM tools is a plus.
+                        * Basic writing skills.
+                        * Interest in customer engagement.
+What We Offer:
+                        * Exposure to AI-assisted sales processes.
+                        * Practical business experience.
+                        * Mentorship from professionals.
+                        * Opportunity to work with cross-functional teams.
+Join Us:
+If you're interested in using AI to improve sales and customer engagement, apply today.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI BUSINESS INTELLIGENCE INTERN
+About Zuntra Digital
+Zuntra Digital is seeking an AI Business Intelligence Intern to help transform data into meaningful insights using AI-powered tools and reporting platforms.
+Responsibilities:
+                        * Assist in collecting and organizing business data.
+                        * Prepare dashboards and reports.
+                        * Use AI to summarize business information.
+                        * Support different departments with data insights.
+                        * Monitor key performance metrics.
+                        * Maintain business documentation.
+Qualifications:
+                        * Basic knowledge of AI tools.
+                        * Good analytical thinking.
+                        * Familiarity with spreadsheets.
+                        * Strong attention to detail.
+Preferred Skills:
+                        * Interest in data visualization.
+                        * Basic Excel or Google Sheets knowledge.
+                        * Curiosity about business analytics.
+                        * Good presentation skills.
+What We Offer:
+                        * Hands-on experience with business analytics.
+                        * Exposure to AI-powered reporting.
+                        * Professional mentorship.
+                        * Opportunity to work on real business projects.
+Join Us:
+If you enjoy working with data and AI, we'd love to have you join our growing team.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI CUSTOMER SUCCESS INTERN
+About Zuntra Digital
+Zuntra Digital is seeking an AI Customer Success Intern to help improve customer experiences using AI-powered communication and support tools.
+Responsibilities:
+                        * Assist in responding to customer queries.
+                        * Use AI to prepare knowledge base articles.
+                        * Organize customer feedback.
+                        * Help create onboarding materials.
+                        * Support customer engagement initiatives.
+                        * Maintain customer documentation.
+Qualifications:
+                        * Basic familiarity with AI tools.
+                        * Good communication skills.
+                        * Friendly and customer-focused attitude.
+                        * Strong willingness to learn.
+Preferred Skills:
+                        * Basic understanding of customer support.
+                        * Interest in AI chatbots.
+                        * Good writing skills.
+                        * Organizational abilities.
+What We Offer:
+                        * Practical customer success experience.
+                        * Exposure to AI-powered support systems.
+                        * Professional mentoring.
+                        * Opportunity to work on live customer projects.
+Join Us:
+If you enjoy helping people and learning AI-powered customer engagement, we'd love to have you on board.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI PRODUCT MARKETING INTERN
+About Zuntra Digital
+Zuntra Digital is looking for an AI Product Marketing Intern to help promote digital products through AI-powered marketing, content creation, and market research.
+Responsibilities:
+                        * Assist in creating product marketing content.
+                        * Conduct market and competitor research.
+                        * Prepare presentations and promotional materials.
+                        * Support product launch campaigns.
+                        * Generate AI-assisted marketing ideas.
+                        * Collaborate with product and marketing teams.
+Qualifications:
+                        * Basic familiarity with AI tools.
+                        * Good communication skills.
+                        * Interest in marketing and digital products.
+                        * Creative mindset.
+Preferred Skills:
+                        * Canva or presentation tools.
+                        * Basic social media knowledge.
+                        * Content writing skills.
+                        * Curiosity about product marketing.
+What We Offer:
+                        * Experience in AI-powered product marketing.
+                        * Opportunity to work on live products.
+                        * Mentorship from experienced professionals.
+                        * Portfolio-building opportunities.
+Join Us:
+If you're passionate about AI, marketing, and digital products, we'd love to hear from you.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+Role: AI INNOVATION & STRATEGY INTERN
+About Zuntra Digital
+Zuntra Digital is seeking an AI Innovation & Strategy Intern to explore new AI tools, identify innovative ideas, and contribute to improving business processes and digital products.
+Responsibilities:
+                        * Research emerging AI technologies.
+                        * Explore innovative use cases for AI.
+                        * Assist in brainstorming new ideas.
+                        * Prepare reports and presentations.
+                        * Support strategy discussions.
+                        * Collaborate with different departments.
+Qualifications:
+                        * Familiarity with AI tools.
+                        * Curious and creative mindset.
+                        * Good communication skills.
+                        * Strong willingness to learn.
+Preferred Skills:
+                        * Interest in technology trends.
+                        * Research and presentation skills.
+                        * Problem-solving ability.
+                        * Adaptability to new tools.
+What We Offer:
+                        * Exposure to cutting-edge AI technologies.
+                        * Opportunity to work on innovation projects.
+                        * Mentorship from experienced professionals.
+                        * Collaborative learning environment.
+Join Us:
+If you're excited about exploring the future of AI and innovation, we'd love to have you join Zuntra Digital.
+Contact
+For further information, contact: hrofficial@zuntra.com | 9150236930
+
+ZUNTRA DIGITAL PRIVATE LIMITED
+ROLE: FORWARD DEPLOYED ENGINEER INTERN
+About Zuntra Digital
+Zuntra Digital is seeking a Forward Deployed Engineer Intern to work closely with product, engineering, AI, and business teams to design, develop, deploy, and optimize technology solutions for real-world business requirements.
+This internship provides hands-on exposure to AI-powered applications, automation, software development, deployment workflows, and Anti-Gravity technologies, while giving you the opportunity to work on practical projects and solve complex technical problems.
+Responsibilities:
+                        * Develop, integrate, and deploy software solutions based on real-world business and product requirements.
+                        * Work closely with product, development, AI, and business teams to understand requirements and translate them into technical solutions.
+                        * Build and integrate APIs, backend services, automation workflows, and application components.
+                        * Assist in deploying, testing, monitoring, and troubleshooting applications across development and production environments.
+                        * Work with AI-powered tools and technologies to develop intelligent and scalable solutions.
+                        * Explore and implement Anti-Gravity concepts, technologies, and workflows as part of innovative product and engineering initiatives.
+                        * Identify technical issues and implement effective solutions to improve system performance and reliability.
+                        * Collaborate with cross-functional teams to ensure successful implementation of deployed solutions.
+                        * Document technical processes, configurations, integrations, and deployment procedures.
+                        * Continuously research and experiment with emerging technologies to improve product capabilities.
+Qualifications:
+                        * Pursuing or recently completed a degree in Computer Science, Information Technology, Software Engineering, Artificial Intelligence, or a related field.
+                        * Strong programming fundamentals and problem-solving skills.
+                        * Knowledge of at least one programming language such as Python, JavaScript, TypeScript, Java, or similar.
+                        * Basic understanding of APIs, databases, Git, and software development workflows.
+                        * Familiarity with web technologies and application architecture.
+                        * Good understanding of debugging and troubleshooting techniques.
+                        * Strong communication skills and ability to work effectively in a cross-functional team.
+                        * Willingness to learn new technologies and work in a fast-paced product environment.
+Preferred Skills:
+                        * Familiarity with AI/ML technologies and AI-powered applications.
+                        * Experience working with REST APIs, SDKs, databases, and third-party integrations.
+                        * Basic knowledge of cloud platforms such as AWS, Google Cloud, or Azure.
+                        * Familiarity with Docker, CI/CD, GitHub, or other deployment tools.
+                        * Experience with automation tools and workflow platforms.
+                        * Interest in Anti-Gravity technologies, AI agents, autonomous systems, and emerging engineering concepts.
+                        * Basic understanding of system architecture, scalability, and application security is a plus.
+                        * Personal, academic, or open-source projects demonstrating technical capabilities are highly valued.
+What We Offer:
+                        * Hands-on experience working on real-world software, AI, and digital product projects.
+                        * Exposure to Forward Deployed Engineering and solving practical business problems through technology.
+                        * Opportunity to work with AI, automation, cloud technologies, and Anti-Gravity initiatives.
+                        * Mentorship and guidance from experienced engineering and product professionals.
+                        * Opportunity to contribute to production-oriented projects and strengthen your technical portfolio.
+                        * Collaborative environment with exposure to multiple technology and business functions.
+                        * Opportunity to explore emerging technologies and develop practical engineering skills.
+Join Us:
+If you are passionate about software engineering, AI, emerging technologies, and solving real-world problems, we encourage you to apply for the Forward Deployed Engineer Internship at Zuntra Digital.
+This role is ideal for individuals who enjoy moving beyond theoretical development and want to build, deploy, troubleshoot, and improve technology solutions in real-world environments.
+Submit your resume and relevant project/portfolio links to be considered. We look forward to helping you develop your engineering capabilities and gain practical industry experience!
+Contact
+For further information, contact:
+Email: hrofficial@zuntra.com
+Phone: 9150236930

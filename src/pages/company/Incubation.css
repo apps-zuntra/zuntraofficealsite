@@ -1,0 +1,1505 @@
+
+/* -------------------------------------------------------------
+   Tokens + scoped reset
+   ------------------------------------------------------------- */
+.inc-page {
+  --inc-black: #09090b;
+  --inc-ink: #111111;
+  --inc-text: #555555;
+  --inc-muted: #999999;
+  --inc-soft: #9a9a9a;
+  --inc-faint: #bbbbbb;
+  --inc-dim: #666666;
+  --inc-line: #e5e5e5;
+  --inc-surface: #f5f5f3;
+  --inc-white: #ffffff;
+
+  --inc-purple: #8763e5;
+  --inc-blue: #4f8df7;
+  --inc-green: #42e889;
+  --inc-orange: #ff8148;
+  --inc-yellow: #f7c842;
+  --inc-pink: #f29ceb;
+
+  width: 100%;
+  background: var(--inc-white);
+  color: var(--inc-ink);
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.inc-page *,
+.inc-page *::before,
+.inc-page *::after {
+  box-sizing: border-box;
+}
+
+.inc-page :where(h1, h2, h3, h4, p, ul, ol, li, address) {
+  margin: 0;
+  padding: 0;
+}
+
+.inc-page :where(ul, ol) {
+  list-style: none;
+}
+
+.inc-page :where(address) {
+  font-style: normal;
+}
+
+.inc-page :where(a) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.inc-page :where(button) {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* -------------------------------------------------------------
+   Shared building blocks
+   ------------------------------------------------------------- */
+.inc-container {
+  width: min(1131.2px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.inc-section {
+  padding: 96px 0;
+}
+
+.inc-eyebrow {
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--inc-muted);
+}
+
+/* Headings that are shown in capitals in the design */
+.inc-hero__title,
+.inc-why__title,
+.inc-help__title,
+.inc-cap__title,
+.inc-journey__title,
+.inc-programs__title,
+.inc-card__title,
+.inc-stories__title,
+.inc-story__title,
+.inc-portfolio__title,
+.inc-community__title,
+.inc-ecosystem__title,
+.inc-cta__title {
+  text-transform: uppercase;
+}
+
+/* Empty image slot – drop an <img /> inside it */
+.inc-image {
+  position: relative;
+  display: block;
+}
+
+.inc-image > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Buttons */
+.inc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 28px;
+  border: 0.8px solid transparent;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.inc-btn--dark {
+  background: var(--inc-ink);
+  border-color: var(--inc-ink);
+  color: var(--inc-white);
+}
+
+.inc-btn--outline {
+  border-color: var(--inc-line);
+  color: var(--inc-ink);
+}
+
+.inc-btn--light {
+  padding: 12px 24px;
+  border: 0;
+  background: var(--inc-white);
+  color: var(--inc-blue);
+}
+
+.inc-btn--white {
+  padding: 14px 32px;
+  background: var(--inc-white);
+  color: var(--inc-purple);
+}
+
+.inc-btn--ghost {
+  padding: 14px 24px;
+  border-color: rgba(255, 255, 255, 0.35);
+  color: var(--inc-white);
+}
+
+/* Text links */
+.inc-link {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--inc-ink);
+}
+
+/* Hand-drawn dashed ring used on some headings */
+.inc-ring {
+  position: relative;
+  display: inline-block;
+}
+
+.inc-ring::after {
+  content: "";
+  position: absolute;
+  inset: -6px -9px -6px -6px;
+  border: 3.1px dashed var(--inc-pink);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.inc-ring--tight::after {
+  inset: -14px -8px -17px -5px;
+  border-width: 2.93px;
+}
+
+/* Hand-drawn underline */
+.inc-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.inc-underline::after {
+  content: "";
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  bottom: -5px;
+  height: 12px;
+  border-bottom: 2.5px solid var(--inc-pink);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  pointer-events: none;
+}
+
+/* -------------------------------------------------------------
+   1. Hero
+   ------------------------------------------------------------- */
+.inc-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 678px;
+  overflow: hidden;
+  background: var(--inc-white);
+}
+
+.inc-hero__img {
+  position: absolute;
+}
+
+.inc-hero__img--left {
+  left: -18px;
+  top: 358px;
+  width: 277px;
+  height: 320px;
+}
+
+.inc-hero__img--top {
+  left: calc(50% + 184px);
+  top: -72px;
+  width: 313px;
+  height: 244px;
+}
+
+.inc-hero__img--right {
+  right: -4px;
+  top: 434px;
+  width: 298px;
+  height: 283px;
+}
+
+.inc-hero__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.inc-hero__title {
+  padding-bottom: 16px;
+  font-size: 72px;
+  line-height: 91px;
+  font-weight: 900;
+  letter-spacing: -2.86848px;
+  text-align: center;
+  color: var(--inc-ink);
+}
+
+.inc-hero__text {
+  max-width: 520px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--inc-text);
+}
+
+.inc-hero__actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+/* -------------------------------------------------------------
+   2. Why incubation
+   ------------------------------------------------------------- */
+.inc-why {
+  background: var(--inc-surface);
+}
+
+.inc-why__grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+}
+
+.inc-why__label {
+  padding-top: 8px;
+}
+
+.inc-why__title {
+  max-width: 600px;
+  font-size: 47.808px;
+  line-height: 50px;
+  font-weight: 900;
+  letter-spacing: -1.1952px;
+  color: var(--inc-ink);
+}
+
+.inc-why__text {
+  max-width: 540px;
+  margin-top: 24px;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 300;
+  color: var(--inc-text);
+}
+
+.inc-why__text + .inc-why__text {
+  margin-top: 20px;
+}
+
+/* -------------------------------------------------------------
+   3. How we help (tabs)
+   ------------------------------------------------------------- */
+.inc-help {
+  background: var(--inc-white);
+}
+
+.inc-help__title {
+  font-size: 47.808px;
+  line-height: 72px;
+  font-weight: 900;
+  letter-spacing: -1.1952px;
+  text-align: center;
+  color: var(--inc-ink);
+}
+
+.inc-tabs {
+  display: flex;
+  margin-top: 48px;
+  border-bottom: 0.8px solid var(--inc-line);
+}
+
+.inc-tab {
+  margin-bottom: -0.8px;
+  padding: 14px 24px;
+  border-bottom: 1.6px solid transparent;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--inc-text);
+}
+
+.inc-tab.is-active {
+  border-bottom-color: var(--inc-ink);
+  color: var(--inc-ink);
+}
+
+.inc-help__stage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  margin-top: 56px;
+}
+
+.inc-help__copy {
+  padding-top: 58px;
+}
+
+.inc-help__heading {
+  font-size: 29.88px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: -0.4482px;
+  color: var(--inc-ink);
+}
+
+.inc-help__text {
+  max-width: 420px;
+  padding: 20px 0 32px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: var(--inc-text);
+}
+
+.inc-help__visual {
+  position: relative;
+  height: 340px;
+}
+
+.inc-help__img {
+  position: absolute;
+}
+
+.inc-help__img--main {
+  left: 40px;
+  top: 0;
+  width: 304.84px;
+  height: 238px;
+}
+
+.inc-help__img--sub {
+  left: 273.31px;
+  top: 153px;
+  width: 252.29px;
+  height: 187px;
+}
+
+.inc-help__line {
+  position: absolute;
+  left: 271.31px;
+  top: 119px;
+  width: 2px;
+  height: 40px;
+  background: var(--inc-pink);
+}
+
+/* -------------------------------------------------------------
+   4. Capability list
+   ------------------------------------------------------------- */
+.inc-cap {
+  background: var(--inc-surface);
+}
+
+.inc-cap__head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+}
+
+.inc-cap__title {
+  font-size: 41.832px;
+  line-height: 52px;
+  font-weight: 900;
+  letter-spacing: -1.0458px;
+  color: var(--inc-ink);
+}
+
+.inc-cap__intro {
+  padding-top: 8px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: var(--inc-text);
+}
+
+.inc-cap__list {
+  margin-top: 56px;
+}
+
+.inc-cap__list::after {
+  content: "";
+  display: block;
+  border-top: 0.8px solid var(--inc-line);
+}
+
+.inc-cap__row {
+  display: grid;
+  grid-template-columns: 96px 232px 1fr;
+  align-items: center;
+  min-height: 74.4px;
+  margin: 0 -24px;
+  padding: 0 24px;
+  border-top: 0.8px solid var(--inc-line);
+}
+
+.inc-cap__num {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  color: var(--inc-faint);
+}
+
+.inc-cap__name {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  color: var(--inc-ink);
+}
+
+.inc-cap__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.inc-tag {
+  padding: 3px 10px;
+  border: 0.8px solid var(--inc-line);
+  background: var(--inc-white);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--inc-text);
+}
+
+/* -------------------------------------------------------------
+   5. Journey
+   ------------------------------------------------------------- */
+.inc-journey {
+  background: var(--inc-white);
+}
+
+.inc-journey__title {
+  padding-top: 16px;
+  font-size: 41.832px;
+  line-height: 44px;
+  font-weight: 900;
+  letter-spacing: -1.0458px;
+  color: var(--inc-ink);
+}
+
+.inc-journey__steps {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 56px 0 8px;
+}
+
+.inc-journey__steps::before {
+  content: "";
+  position: absolute;
+  top: 76px;
+  left: 39.59px;
+  right: 39.59px;
+  height: 1px;
+  background: var(--inc-line);
+}
+
+.inc-step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.inc-step__badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2.4px solid var(--inc-white);
+  border-radius: 20px;
+  background: var(--step-color);
+  box-shadow: 0 0 0 1px var(--step-color);
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 700;
+  color: var(--inc-white);
+}
+
+.inc-step__name {
+  padding-top: 16px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
+  color: var(--inc-ink);
+}
+
+.inc-step__text {
+  max-width: 146px;
+  padding-top: 6px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--inc-text);
+}
+
+.inc-step--idea {
+  --step-color: var(--inc-purple);
+}
+
+.inc-step--validate {
+  --step-color: var(--inc-blue);
+}
+
+.inc-step--design {
+  --step-color: var(--inc-green);
+}
+
+.inc-step--build {
+  --step-color: var(--inc-orange);
+}
+
+.inc-step--test {
+  --step-color: var(--inc-yellow);
+}
+
+.inc-step--test .inc-step__badge {
+  color: var(--inc-ink);
+}
+
+.inc-step--launch {
+  --step-color: var(--inc-pink);
+}
+
+.inc-step--grow {
+  --step-color: var(--inc-black);
+}
+
+/* -------------------------------------------------------------
+   6. Program cards
+   ------------------------------------------------------------- */
+.inc-programs {
+  background: var(--inc-surface);
+}
+
+.inc-programs__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.inc-programs__title {
+  font-size: 35.856px;
+  line-height: 54px;
+  font-weight: 900;
+  letter-spacing: -0.71712px;
+  color: var(--inc-ink);
+}
+
+.inc-programs__note {
+  margin-top: 28px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.66px;
+  text-transform: uppercase;
+  color: var(--inc-muted);
+}
+
+.inc-programs__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.inc-card__img {
+  width: 100%;
+  height: 180px;
+}
+
+.inc-card__body {
+  padding: 28px 28px 36px;
+}
+
+.inc-card__eyebrow {
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.inc-card__title {
+  padding-top: 12px;
+  font-size: 23.904px;
+  line-height: 27px;
+  font-weight: 800;
+  letter-spacing: -0.23904px;
+}
+
+.inc-card__text {
+  padding: 12px 0 24px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.inc-card__link {
+  display: inline-block;
+  padding-top: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.inc-card--incubation {
+  background: var(--inc-purple);
+  color: var(--inc-white);
+}
+
+.inc-card--technology {
+  background: var(--inc-blue);
+  color: var(--inc-white);
+}
+
+.inc-card--build {
+  background: var(--inc-yellow);
+  color: var(--inc-ink);
+}
+
+.inc-card--cohort {
+  background: var(--inc-black);
+  color: var(--inc-white);
+}
+
+/* -------------------------------------------------------------
+   7. Venture stories
+   ------------------------------------------------------------- */
+.inc-stories {
+  background: var(--inc-black);
+}
+
+.inc-stories__title {
+  font-size: 47.808px;
+  line-height: 50px;
+  font-weight: 900;
+  letter-spacing: -1.1952px;
+  text-align: center;
+  color: var(--inc-white);
+}
+
+.inc-stories__text {
+  padding-top: 16px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: var(--inc-dim);
+}
+
+.inc-stories__grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 16px;
+  margin-top: 56px;
+}
+
+.inc-story {
+  display: block;
+}
+
+.inc-story__img {
+  width: 100%;
+  height: 366.4px;
+}
+
+.inc-story--large .inc-story__img {
+  height: 412.2px;
+}
+
+.inc-story__caption {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.inc-story__eyebrow {
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--inc-text);
+}
+
+.inc-story__title {
+  padding-top: 6px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  color: var(--inc-white);
+}
+
+.inc-story--large .inc-story__title {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.22px;
+}
+
+.inc-story__desc {
+  padding-top: 6px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--inc-dim);
+}
+
+.inc-story__arrow {
+  padding-left: 12px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--inc-text);
+}
+
+/* -------------------------------------------------------------
+   8. Venture ecosystem list
+   ------------------------------------------------------------- */
+.inc-portfolio {
+  background: var(--inc-white);
+}
+
+.inc-portfolio__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.inc-portfolio__title {
+  font-size: 35.856px;
+  line-height: 54px;
+  font-weight: 900;
+  letter-spacing: -0.71712px;
+  color: var(--inc-ink);
+}
+
+.inc-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.inc-filter {
+  padding: 5px 12px;
+  border: 0.8px solid var(--inc-line);
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.66px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--inc-text);
+}
+
+.inc-filter.is-active {
+  border-color: var(--inc-ink);
+  background: var(--inc-ink);
+  color: var(--inc-white);
+}
+
+.inc-portfolio__list {
+  margin-top: 40px;
+}
+
+.inc-portfolio__list::after {
+  content: "";
+  display: block;
+  border-top: 0.8px solid var(--inc-line);
+}
+
+.inc-venture {
+  display: grid;
+  grid-template-columns: 88px 1fr 224px 48px;
+  align-items: center;
+  min-height: 74.8px;
+  margin: 0 -24px;
+  padding: 0 24px;
+  border-top: 0.8px solid var(--inc-line);
+}
+
+.inc-venture__num {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  color: var(--inc-faint);
+}
+
+.inc-venture__name {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  color: var(--inc-ink);
+}
+
+.inc-venture__type {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
+  color: var(--inc-text);
+}
+
+.inc-venture__arrow {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--inc-line);
+}
+
+/* -------------------------------------------------------------
+   9. Community
+   ------------------------------------------------------------- */
+.inc-community {
+  background: var(--inc-blue);
+}
+
+.inc-community__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  align-items: center;
+  min-height: 360px;
+}
+
+.inc-community__title {
+  font-size: 47.808px;
+  line-height: 48px;
+  font-weight: 900;
+  letter-spacing: -1.1952px;
+  color: var(--inc-white);
+}
+
+.inc-community__line-text {
+  display: block;
+}
+
+.inc-community__text {
+  max-width: 400px;
+  padding: 24px 0 32px;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.inc-community__collage {
+  position: relative;
+  height: 360px;
+}
+
+.inc-community__img {
+  position: absolute;
+}
+
+.inc-community__img--a {
+  left: 0;
+  top: 0;
+  width: 289.08px;
+  height: 216px;
+}
+
+.inc-community__img--b {
+  left: 304.85px;
+  top: 20px;
+  width: 220.75px;
+  height: 180px;
+}
+
+.inc-community__img--c {
+  left: 271px;
+  top: 187.04px;
+  width: 273.3px;
+  height: 172.8px;
+}
+
+.inc-community__img--d {
+  left: -69px;
+  top: 158.04px;
+  width: 273.3px;
+  height: 172.8px;
+}
+
+.inc-community__pin {
+  position: absolute;
+  z-index: 1;
+  left: -2px;
+  top: -20px;
+  width: 2px;
+  height: 36px;
+  background: var(--inc-pink);
+}
+
+/* -------------------------------------------------------------
+   10. Ecosystem flow
+   ------------------------------------------------------------- */
+.inc-ecosystem {
+  background: var(--inc-black);
+}
+
+.inc-ecosystem__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  align-items: center;
+  min-height: 400px;
+}
+
+.inc-ecosystem__eyebrow {
+  color: var(--inc-text);
+}
+
+.inc-ecosystem__title {
+  padding-top: 20px;
+  font-size: 41.832px;
+  line-height: 44px;
+  font-weight: 900;
+  letter-spacing: -1.0458px;
+  color: var(--inc-white);
+}
+
+.inc-ecosystem__text {
+  max-width: 380px;
+  padding-top: 24px;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 300;
+  color: var(--inc-dim);
+}
+
+.inc-ecosystem__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 32px;
+}
+
+.inc-ecosystem__link {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  color: var(--inc-text);
+}
+
+.inc-ecosystem__link--accent {
+  color: var(--inc-purple);
+}
+
+.inc-flow {
+  padding-left: 40px;
+}
+
+.inc-flow__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+}
+
+.inc-flow__step:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 20px;
+  margin-left: 18px;
+  background: #222222;
+}
+
+.inc-flow__marker {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 0.8px solid var(--flow-color);
+  border-radius: 18px;
+  background: var(--flow-tint);
+}
+
+.inc-flow__marker::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--flow-color);
+}
+
+.inc-flow__name {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 0.52px;
+  text-transform: uppercase;
+  color: var(--inc-white);
+}
+
+.inc-flow__desc {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--inc-text);
+}
+
+.inc-flow__step--idea {
+  --flow-color: var(--inc-yellow);
+  --flow-tint: rgba(247, 200, 66, 0.133);
+}
+
+.inc-flow__step--labs {
+  --flow-color: var(--inc-purple);
+  --flow-tint: rgba(135, 99, 229, 0.133);
+}
+
+.inc-flow__step--incubation {
+  --flow-color: var(--inc-blue);
+  --flow-tint: rgba(79, 141, 247, 0.133);
+}
+
+.inc-flow__step--product {
+  --flow-color: var(--inc-green);
+  --flow-tint: rgba(66, 232, 137, 0.133);
+}
+
+.inc-flow__step--venture {
+  --flow-color: var(--inc-orange);
+  --flow-tint: rgba(255, 129, 72, 0.133);
+}
+
+/* -------------------------------------------------------------
+   11. Apply CTA
+   ------------------------------------------------------------- */
+.inc-cta {
+  display: flex;
+  justify-content: center;
+  padding: 119px 24px;
+  background: var(--inc-purple);
+  text-align: center;
+}
+
+.inc-cta__inner {
+  width: 100%;
+  max-width: 680px;
+}
+
+.inc-cta__title {
+  font-size: 71.712px;
+  line-height: 68px;
+  font-weight: 900;
+  letter-spacing: -2.15136px;
+  text-align: center;
+  color: var(--inc-white);
+}
+
+.inc-cta__text {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 24px;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.inc-cta__text + .inc-cta__text {
+  padding-top: 16px;
+}
+
+.inc-cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 40px;
+}
+
+/* -------------------------------------------------------------
+   12. Footer
+   ------------------------------------------------------------- */
+.inc-footer {
+  border-top: 0.8px solid var(--inc-line);
+  background: var(--inc-white);
+}
+
+.inc-footer__top {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  column-gap: 64px;
+  padding: 64px 0 48px;
+  border-bottom: 0.8px solid var(--inc-line);
+}
+
+.inc-footer__logo {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 900;
+  letter-spacing: 2.52px;
+  text-transform: uppercase;
+  color: var(--inc-black);
+}
+
+.inc-footer__about {
+  max-width: 220px;
+  padding-top: 16px;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  color: var(--inc-soft);
+}
+
+.inc-footer__dots {
+  display: flex;
+  gap: 8px;
+  padding-top: 24px;
+}
+
+.inc-footer__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.inc-footer__dot--1 {
+  background: #7c3aed;
+}
+
+.inc-footer__dot--2 {
+  background: #2563eb;
+}
+
+.inc-footer__dot--3 {
+  background: #16a34a;
+}
+
+.inc-footer__dot--4 {
+  background: #ea580c;
+}
+
+.inc-footer__dot--5 {
+  background: #d97706;
+}
+
+.inc-footer__dot--6 {
+  background: #db2777;
+}
+
+.inc-footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 24px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--inc-soft);
+}
+
+.inc-footer__nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+  row-gap: 32px;
+  align-content: start;
+}
+
+.inc-footer__heading {
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--inc-black);
+}
+
+.inc-footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 14px;
+}
+
+.inc-footer__link {
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 400;
+  color: var(--inc-soft);
+}
+
+.inc-footer__offices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px;
+  padding: 32px 0;
+  border-bottom: 0.8px solid var(--inc-line);
+}
+
+.inc-footer__address {
+  max-width: 175px;
+  padding-top: 8px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--inc-soft);
+}
+
+.inc-footer__address--na {
+  max-width: 108px;
+}
+
+.inc-footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 20px 0 24px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--inc-soft);
+}
+
+.inc-footer__legal {
+  display: flex;
+  gap: 24px;
+}
+
+/* -------------------------------------------------------------
+   Responsive (design is pixel-matched at 1440px)
+   ------------------------------------------------------------- */
+@media (max-width: 1100px) {
+  .inc-hero {
+    height: auto;
+    padding: 120px 0;
+  }
+
+  .inc-hero__img {
+    display: none;
+  }
+
+  .inc-hero__title {
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: -2px;
+  }
+
+  .inc-why__grid,
+  .inc-help__stage,
+  .inc-cap__head,
+  .inc-programs__grid,
+  .inc-community__grid,
+  .inc-ecosystem__grid,
+  .inc-footer__top {
+    grid-template-columns: 1fr;
+  }
+
+  .inc-why__grid {
+    row-gap: 24px;
+  }
+
+  .inc-help__stage,
+  .inc-cap__head,
+  .inc-community__grid,
+  .inc-ecosystem__grid,
+  .inc-footer__top {
+    row-gap: 48px;
+  }
+
+  .inc-help__copy {
+    padding-top: 0;
+  }
+
+  .inc-help__visual,
+  .inc-community__collage {
+    width: 100%;
+    max-width: 525.6px;
+  }
+
+  .inc-community__collage {
+    margin-left: 69px;
+  }
+
+  .inc-flow {
+    padding-left: 0;
+  }
+
+  .inc-journey__steps {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 40px;
+  }
+
+  .inc-journey__steps::before {
+    display: none;
+  }
+
+  .inc-stories__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .inc-cta__title {
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+  }
+}
+
+@media (max-width: 720px) {
+  .inc-section {
+    padding: 64px 0;
+  }
+
+  .inc-hero__title {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.4px;
+  }
+
+  .inc-hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .inc-why__title,
+  .inc-help__title,
+  .inc-stories__title,
+  .inc-community__title {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.8px;
+  }
+
+  .inc-cap__title,
+  .inc-journey__title,
+  .inc-ecosystem__title {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.7px;
+  }
+
+  .inc-programs__title,
+  .inc-portfolio__title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .inc-tabs {
+    overflow-x: auto;
+  }
+
+  .inc-cap__row {
+    grid-template-columns: 40px 1fr;
+    row-gap: 12px;
+    padding-block: 20px;
+  }
+
+  .inc-cap__tags {
+    grid-column: 2;
+  }
+
+  .inc-journey__steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .inc-programs__head,
+  .inc-portfolio__head {
+    flex-direction: column;
+  }
+
+  .inc-venture {
+    grid-template-columns: 40px 1fr 32px;
+    row-gap: 4px;
+    padding-block: 16px;
+  }
+
+  .inc-venture__type {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .inc-venture__arrow {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .inc-help__visual,
+  .inc-community__collage {
+    display: none;
+  }
+
+  .inc-cta {
+    padding: 80px 24px;
+  }
+
+  .inc-cta__title {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.2px;
+  }
+
+  .inc-footer__nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .inc-footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

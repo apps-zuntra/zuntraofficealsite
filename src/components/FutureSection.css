@@ -1,0 +1,43 @@
+.future-section {
+  padding-bottom: 8rem;
+}
+
+.future-grid {
+  gap: 1.5rem;
+}
+
+.future-card {
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 160px;
+  transition: transform 0.2s;
+}
+
+.future-card:hover {
+  transform: scale(1.02);
+}
+
+.future-card h4 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.future-card p {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.card-purple-light { background: rgba(139, 92, 246, 0.05); border: 1px solid rgba(139, 92, 246, 0.1); }
+.card-blue-light { background: rgba(59, 130, 246, 0.05); border: 1px solid rgba(59, 130, 246, 0.1); }
+.card-green-light { background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.1); }
+.card-orange-light { background: rgba(249, 115, 22, 0.05); border: 1px solid rgba(249, 115, 22, 0.1); }
+.card-pink-light { background: rgba(236, 72, 153, 0.05); border: 1px solid rgba(236, 72, 153, 0.1); }
+.card-red-light { background: rgba(239, 68, 68, 0.05); border: 1px solid rgba(239, 68, 68, 0.1); }
+.card-gray-light { background: var(--bg-secondary); border: 1px solid var(--border-light); }
+.card-dark { background: var(--bg-dark); color: var(--text-light); border: 1px solid var(--border-dark); }
+.card-dark p { color: var(--text-muted); }

@@ -1,0 +1,43 @@
+.threed-card-container {
+  perspective: 1500px;
+  position: relative;
+  transition-duration: 300ms;
+  transition-property: transform, box-shadow;
+  transition-timing-function: ease-out;
+  transform: rotate3d(0);
+  width: 100%;
+  height: 100%;
+  border-radius: inherit; /* inherit border radius from parent if any */
+  overflow: hidden; /* Ensure image conforms to the border-radius */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  will-change: transform, box-shadow;
+}
+
+.threed-card-container:hover {
+  transition-duration: 150ms;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+  z-index: 10;
+}
+
+.threed-card-container .glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  pointer-events: none; /* Make sure the glow doesn't interfere with mouse events */
+  background-image: radial-gradient(circle at 50% -20%, #ffffff22, transparent);
+  border-radius: inherit; /* To match image border radius */
+  mix-blend-mode: soft-light;
+  opacity: 0.8;
+  transition: background-image 0.1s ease;
+}
+
+/* Ensure the image inside scales well with the container if needed */
+.threed-card-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}

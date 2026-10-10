@@ -1,0 +1,420 @@
+/* Scroll Wrapper for 4-Step Sticky Experience */
+.ep-scroll-wrapper {
+  position: relative;
+  height: 350vh;
+  width: 100%;
+}
+
+/* Sticky Viewport Container locked to top navbar */
+.enterprise-platforms-section.ep-sticky {
+  position: sticky;
+  top: 68px;
+  height: calc(100vh - 68px);
+  padding: 0;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 10;
+}
+
+/* Continuous 1266px side grid frame */
+.ep-container {
+  max-width: 1266px;
+  margin: 0 auto;
+  width: 100%;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header Area */
+.ep-header {
+  padding: 2.75rem 3.5rem 2rem 3.5rem;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.ep-pill {
+  display: inline-block;
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 0.35rem 0.85rem;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 6px;
+  margin-bottom: 1.15rem;
+  letter-spacing: 0.02em;
+}
+
+.ep-title {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #0f172a;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+/* Body: 46% Left + 54% Right Box */
+.ep-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 46% 54%;
+  background-color: #ffffff;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Left Column */
+.ep-left {
+  padding: 3.25rem 3.5rem 2.5rem 3.5rem;
+  border-right: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3.5rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.ep-left::-webkit-scrollbar {
+  display: none;
+}
+
+.ep-intro {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: #64748b;
+  margin: 0;
+  max-width: 480px;
+}
+
+.ep-products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.65rem;
+}
+
+.ep-product-item {
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+.ep-product-title-row {
+  display: flex;
+  align-items: center;
+}
+
+.ep-product-title {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+  transition: color 0.15s ease, opacity 0.15s ease;
+  letter-spacing: -0.015em;
+}
+
+.ep-product-item:hover .ep-product-title {
+  color: #000000;
+  opacity: 0.85;
+}
+
+.ep-product-item.active .ep-product-title {
+  color: #0f172a;
+}
+
+.ep-product-details {
+  margin-top: 0.6rem;
+  animation: epFadeIn 0.25s ease forwards;
+}
+
+@keyframes epFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ep-product-subtitle {
+  display: none;
+}
+
+.ep-product-desc-line {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: #8590a2;
+  margin: 0;
+  max-width: 440px;
+}
+
+/* Loading / Progress Animation Track & Fill Line */
+.ep-progress-track {
+  width: 100%;
+  max-width: 440px;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.ep-progress-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5px;
+  background-color: #0f172a;
+  transition: width 0.08s ease-out;
+}
+
+/* Right Box */
+.ep-right {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* 7 columns x 10 rows architectural matrix */
+.ep-grid-matrix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.ep-grid-cell {
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.ep-grid-cell:nth-child(7n) {
+  border-right: none;
+}
+
+.ep-grid-cell:nth-last-child(-n+7) {
+  border-bottom: none;
+}
+
+/* Product Preview Image Display Frame */
+.ep-image-display-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-sizing: border-box;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.ep-image-card {
+  position: absolute;
+  width: calc(100% - 4.5rem);
+  height: calc(100% - 4.5rem);
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.06), 0 3px 10px rgba(0, 0, 0, 0.03);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(12px) scale(0.98);
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ep-image-card.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.ep-mock-header {
+  height: 32px;
+  background-color: #f8fafc;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.ep-mock-dots {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ep-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dot-red {
+  background-color: #f87171;
+}
+
+.dot-yellow {
+  background-color: #fbbf24;
+}
+
+.dot-green {
+  background-color: #34d399;
+}
+
+.ep-mock-url {
+  font-family: 'Lato', monospace, sans-serif;
+  font-size: 0.68rem;
+  color: #94a3b8;
+  letter-spacing: 0.02em;
+}
+
+.ep-image-media-wrapper {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+.ep-product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ep-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(to top, rgba(15, 23, 42, 0.88) 0%, rgba(15, 23, 42, 0.3) 60%, transparent 100%);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ep-img-badge {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #cbd5e1;
+}
+
+.ep-img-title {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1300px) {
+  .ep-container {
+    max-width: calc(100% - 64px);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ep-container {
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+  }
+
+  .ep-header {
+    padding: 2rem 2rem 1.5rem 2rem;
+  }
+
+  .ep-title {
+    font-size: 2rem;
+  }
+
+  .ep-left {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ep-scroll-wrapper {
+    height: 350vh;
+  }
+
+  .enterprise-platforms-section.ep-sticky {
+    top: 60px;
+    height: calc(100vh - 60px);
+  }
+
+  .ep-container {
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+
+  .ep-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .ep-left {
+    border-right: none;
+    border-bottom: 1px solid #eaeaea;
+    padding: 1.5rem;
+  }
+
+  .ep-image-display-frame {
+    padding: 1rem;
+  }
+
+  .ep-image-card {
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+  }
+}

@@ -1,0 +1,993 @@
+/* Subtopic Page General */
+.subtopic-page {
+  position: relative;
+  width: 100%;
+  font-family: var(--font-sans);
+  color: #111;
+  background-color: #fff;
+}
+
+.subtopic-page .container {
+  max-width: 1266px;
+  margin: 0 auto;
+  padding: 0 28px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1300px) {
+  .subtopic-page .container {
+    max-width: calc(100% - 64px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .subtopic-page .container {
+    max-width: calc(100% - 48px);
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .subtopic-page .container {
+    max-width: calc(100% - 32px);
+    padding: 0 16px;
+  }
+}
+
+.st-section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-black {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background-color: #333;
+}
+
+.btn-outline-black {
+  background-color: transparent;
+  color: #111;
+  border-color: #9ca3af;
+}
+
+.btn-outline-black:hover {
+  background-color: #f9fafb;
+}
+
+/* 1. Hero Section */
+.subtopic-hero {
+  padding: 2rem 0 8rem;
+  background-color: #fff;
+}
+
+.st-hero-content {
+  max-width: 900px;
+}
+
+.st-main-title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin: 1.5rem 0 2rem;
+  color: #111;
+}
+
+.st-hero-desc {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #6b7280;
+  max-width: 600px;
+  margin-bottom: 3rem;
+}
+
+.st-hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.st-statement {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+  background-color: #ffffff;
+}
+
+.st-statement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.st-statement-text {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin-bottom: 2rem;
+  color: #000000;
+  max-width: 750px;
+  text-align: center;
+}
+
+.st-statement-sub {
+  font-size: 1.1rem;
+  color: #555555;
+  font-weight: 400;
+  line-height: 1.65;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 3. Features Grid */
+.st-features-grid-section {
+  padding: 6rem 0 8rem 0;
+  background-color: #f9fafb;
+}
+
+.st-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background-color: #eaeaea;
+  border: 1px solid #eaeaea;
+  margin-top: 4rem;
+}
+
+.st-grid-card {
+  padding: 3rem 2.5rem;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.st-grid-card:hover {
+  background-color: #fafafa;
+}
+
+.st-card-num {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.st-grid-card h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.st-grid-card p {
+  font-size: 0.95rem;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.st-arch-section {
+  padding: 6rem 0;
+  color: #fff;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.st-arch-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  width: 100%;
+}
+
+.st-arch-left {
+  flex: 1;
+  max-width: 500px;
+}
+
+.st-arch-left .st-section-title {
+  font-size: 3.25rem;
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.st-arch-desc {
+  font-size: 1.05rem;
+  color: #9ca3af;
+  line-height: 1.65;
+  max-width: 460px;
+}
+
+.st-arch-right {
+  flex: 1.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Architecture Diagram Mockup - Vertical Flow */
+.st-diagram-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 580px;
+  padding: 3rem 2rem;
+  background-color: #000000;
+  /* subtle grid background pattern */
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+  background-position: center center;
+  border-radius: 12px;
+}
+
+.st-diagram-vertical .dia-node {
+  padding: 0 1rem !important;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  width: 310px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 2;
+  position: relative;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+}
+
+.dia-node.dark {
+  background-color: #121212;
+  color: #a1a1aa;
+  border: 1px solid #2e2e2e;
+}
+
+.dia-node.blue-border {
+  background-color: rgba(9, 13, 22, 0.9);
+  border-color: #1d4ed8;
+  color: #60a5fa;
+}
+
+.dia-node.purple-bg {
+  background-color: rgba(88, 28, 135, 0.25);
+  color: #c084fc;
+  border: 1px solid #7e22ce;
+}
+
+.dia-node.orange-border {
+  background-color: rgba(20, 11, 7, 0.9);
+  border-color: #ea580c;
+  color: #fb923c;
+}
+
+.dia-node.green-border {
+  background-color: rgba(7, 20, 11, 0.9);
+  border-color: #16a34a;
+  color: #4ade80;
+}
+
+.dia-node.purple-bg.large {
+  font-size: 0.82rem;
+  font-weight: 700;
+  background-color: rgba(88, 28, 135, 0.4);
+  border-color: #9333ea;
+  color: #e9d5ff;
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.15);
+}
+
+.dia-line {
+  background-color: #333333;
+  flex: 0 0 auto;
+}
+
+.dia-line.vertical {
+  width: 1px;
+  height: 28px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.dia-line.vertical.has-branches::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 1px;
+  background-color: #333333;
+}
+
+.dia-line.vertical.has-branches-bottom::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 1px;
+  background-color: #333333;
+}
+
+.dia-line.vertical.has-branches-small::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px;
+  height: 1px;
+  background-color: #333333;
+}
+
+.dia-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.gap-row {
+  gap: 1.25rem; /* 20px */
+  padding-top: 1rem;
+}
+
+.gap-row-small {
+  gap: 2.5rem; /* 40px */
+  padding-top: 1rem;
+}
+
+.gap-row .dia-node {
+  width: 140px !important;
+  min-width: 140px !important;
+  height: 42px !important;
+  padding: 0 0.5rem !important;
+  font-size: 0.65rem;
+}
+
+.gap-row-small .dia-node {
+  width: 200px !important;
+  min-width: 200px !important;
+  height: 42px !important;
+  padding: 0 0.5rem !important;
+  font-size: 0.68rem;
+}
+
+/* 5. Horizontal Values */
+.st-values-section {
+  padding: 8rem 0;
+}
+
+.st-values-header {
+  margin-bottom: 4rem;
+}
+
+.st-values-desc {
+  font-size: 1.15rem;
+  color: #6b7280;
+  max-width: 650px;
+  line-height: 1.6;
+}
+
+.st-values-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+  border-top: 1px solid #eaeaea;
+  padding-top: 3rem;
+}
+
+.st-value-item .v-num {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #9ca3af;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.st-value-item h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.st-value-item p {
+  font-size: 0.9rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+/* 6. Complexity List */
+.st-complexity-section {
+  padding: 8rem 0;
+  background-color: #f9fafb;
+}
+
+.st-complexity-header {
+  margin-bottom: 2rem;
+}
+
+.st-complexity-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.st-comp-item {
+  display: grid;
+  grid-template-columns: 80px 300px 1fr;
+  padding: 2.5rem 0;
+  border-top: 1px solid #eaeaea;
+  align-items: center;
+}
+
+.st-comp-item:last-child {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.st-comp-num {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  font-weight: 700;
+}
+
+.st-comp-item h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.st-comp-item p {
+  font-size: 1rem;
+  color: #9ca3af;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* 7. Success Metrics (Bars) */
+.st-success-section {
+  padding: 8rem 0;
+}
+
+.st-success-container {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.st-success-left {
+  flex: 1;
+}
+
+.st-success-left p {
+  font-size: 1.15rem;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.st-success-right {
+  flex: 1.2;
+}
+
+.st-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.st-bar-card {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.st-bar-accent {
+  width: 4px;
+  flex-shrink: 0;
+}
+
+.st-bar-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.st-bar-content h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.st-bar-desc {
+  font-size: 0.95rem;
+  color: #9ca3af;
+  margin-bottom: 2.5rem;
+}
+
+.st-bar-eyebrow {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #d1d5db;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.st-bar-track {
+  width: 80%;
+  height: 4px;
+  background-color: #f3f4f6;
+}
+
+.st-bar-fill {
+  height: 100%;
+}
+
+/* 8. Orchestration Visual */
+.st-orchestration-section {
+  padding: 8rem 0;
+  background-color: #f9fafb;
+}
+
+.st-orch-title {
+  margin-bottom: 4rem;
+  max-width: 800px;
+}
+
+.st-orch-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border-top: 1px solid #eaeaea;
+}
+
+.st-orch-col {
+  padding: 3rem 4rem 3rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.st-orch-col-right {
+  padding: 3rem 0 3rem 4rem;
+  border-left: 1px solid #eaeaea;
+}
+
+.orch-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
+}
+
+.orch-eyebrow.text-purple {
+  color: #8b5cf6;
+}
+
+.orch-desc-text {
+  font-size: 1rem;
+  color: #9ca3af;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.orch-simple-box {
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orch-simple-text {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #111;
+}
+
+.orch-simple-text .arrow {
+  color: #d1d5db;
+  margin: 0 0.75rem;
+}
+
+.orch-system-box {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.orch-system-header {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+}
+
+.orch-system-header.text-purple {
+  color: #8b5cf6;
+}
+
+.orch-system-agents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.orch-agent-box {
+  border: 1px solid #eaeaea;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.orch-agent-box.text-purple {
+  color: #8b5cf6;
+}
+
+.orch-agent-box.text-blue {
+  color: #3b82f6;
+}
+
+.orch-agent-box.text-green {
+  color: #10b981;
+}
+
+.orch-system-footer {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #111;
+}
+
+/* 9. Evolution Metrics */
+.st-evolution-section {
+  padding: 8rem 0;
+  background-color: #fff;
+}
+
+.st-evo-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 6rem;
+}
+
+.st-evo-left {
+  flex: 1;
+}
+
+.st-evo-left .evo-desc {
+  font-size: 1rem;
+  color: #9ca3af;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+.st-evo-right {
+  flex: 1.2;
+}
+
+.evo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  border-left: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
+}
+
+.evo-card {
+  padding: 2.5rem;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+}
+
+.evo-card-num {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
+}
+
+.evo-card h3 {
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+.evo-card-val {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #d1d5db;
+}
+
+/* 10. Agent Roles Table */
+.st-roles-section {
+  padding: 8rem 0;
+  background-color: #fff;
+}
+
+.st-roles-header {
+  margin-bottom: 4rem;
+}
+
+.st-roles-desc {
+  font-size: 1.15rem;
+  color: #6b7280;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.st-roles-table {
+  border-top: 1px solid #eaeaea;
+}
+
+.role-row {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.r-col-from,
+.r-col-to {
+  flex: 0 0 200px;
+}
+
+.r-eyebrow {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #9ca3af;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.role-row h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.r-col-arrow {
+  flex: 0 0 100px;
+  font-size: 1.25rem;
+}
+
+.r-col-arrow.text-blue {
+  color: #3b82f6;
+}
+
+.r-col-arrow.text-orange {
+  color: #f97316;
+}
+
+.r-col-arrow.text-green {
+  color: #10b981;
+}
+
+.r-col-arrow.text-purple {
+  color: #8b5cf6;
+}
+
+.r-col-desc {
+  flex: 1;
+}
+
+.r-col-desc p {
+  color: #9ca3af;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* 11. FAQ */
+.st-faq-section {
+  padding: 8rem 0;
+}
+
+.st-faq-container {
+  display: flex;
+  gap: 6rem;
+}
+
+.faq-left {
+  flex: 1;
+}
+
+.faq-right {
+  flex: 2;
+}
+
+.faq-title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-top: 1rem;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-item {
+  border-bottom: 1px solid #d1d5db;
+  padding: 2rem 0;
+}
+
+.faq-item:first-child {
+  border-top: 1px solid #d1d5db;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-question h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.faq-toggle {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* 12. CTA */
+.st-cta-section {
+  background-color: #000;
+  color: #fff;
+  padding: 8rem 0;
+}
+
+.st-cta-content h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  max-width: 800px;
+}
+
+.st-cta-content p {
+  font-size: 1.25rem;
+  color: #6b7280;
+  margin-bottom: 4rem;
+  line-height: 1.6;
+}
+
+.st-cta-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.st-cta-section .btn-link-white {
+  background: transparent;
+  color: #fff;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+
+  .st-arch-container,
+  .st-success-container,
+  .st-orch-container,
+  .st-evo-container,
+  .st-faq-container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .st-values-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .st-main-title {
+    font-size: 4rem;
+  }
+
+  .st-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .st-values-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .st-comp-item {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .evo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .role-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .st-section-title {
+    font-size: 2.5rem;
+  }
+}

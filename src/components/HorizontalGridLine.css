@@ -1,0 +1,108 @@
+/* =========================================================
+   INTERACTIVE HORIZONTAL GRIDLINE
+   Hover triggers light rainbow wave animation moving left to right
+   ========================================================= */
+
+.horizontal-gridline {
+  position: relative;
+  width: 100%;
+  max-width: 1266px;
+  margin: 0 auto;
+  height: 32px;
+  margin-top: -16px;
+  margin-bottom: -16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  cursor: default;
+  z-index: 22;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* Strictly prevent beam from spilling outside the grid */
+}
+
+/* Base line: 1px subtle neutral gray */
+.horizontal-gridline-bar {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background-color: #eaeaea;
+  transition: background-color 0.25s ease, height 0.25s ease;
+  overflow: visible;
+}
+
+/* Rainbow Beam that travels left to right once on hover/touch - matching vertical size */
+.horizontal-gridline-beam {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 140px;
+  /* Increased length matching vertical */
+  height: 2px;
+  /* Increased thickness matching vertical */
+  margin-top: -2.5px;
+  border-radius: 999px;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(90deg,
+      transparent 0%,
+      rgba(245, 158, 11, 0.95) 12%,
+      rgba(239, 68, 68, 0.98) 28%,
+      rgba(236, 72, 153, 0.98) 44%,
+      rgba(139, 92, 246, 0.98) 60%,
+      rgba(59, 130, 246, 0.98) 76%,
+      rgba(16, 185, 129, 0.95) 88%,
+      transparent 100%);
+
+  will-change: transform, left, opacity;
+}
+
+.horizontal-gridline:hover .horizontal-gridline-bar {
+  background-color: #d1d5db;
+  height: 2px;
+}
+
+.horizontal-gridline-beam.animating {
+  animation: horizontalBeamTravelLeftToRightOnce 3s ease-in-out forwards;
+}
+
+@keyframes horizontalBeamTravelLeftToRightOnce {
+  0% {
+    left: 0%;
+    transform: translateX(0%);
+    opacity: 0;
+  }
+
+  4% {
+    opacity: 1;
+  }
+
+  94% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 100%;
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .horizontal-gridline {
+    max-width: calc(100% - 64px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .horizontal-gridline {
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 640px) {
+  .horizontal-gridline {
+    max-width: calc(100% - 32px);
+  }
+}

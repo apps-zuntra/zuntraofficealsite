@@ -1,0 +1,71 @@
+.innovation-section {
+  padding: 8rem 5%;
+  background-color: #f8fafc;
+}
+
+.inno-eyebrow {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.inno-title {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #111;
+  margin-bottom: 5rem;
+  letter-spacing: -0.03em;
+}
+
+.inno-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #eaeaea; /* Lines */
+  gap: 1px;
+  border: 1px solid #eaeaea;
+}
+
+.inno-card {
+  background: #fff;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inno-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.inno-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.inno-card p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .inno-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .inno-grid {
+    grid-template-columns: 1fr;
+  }
+}

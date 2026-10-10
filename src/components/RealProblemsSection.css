@@ -1,0 +1,161 @@
+.real-problems-section {
+  padding: 8rem 5%;
+  background-color: #f8fafc;
+}
+
+.rp-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #111;
+  margin-bottom: 5rem;
+  letter-spacing: -0.03em;
+}
+
+.rp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.rp-card {
+  background: #111;
+  color: #fff;
+  border-radius: 0; /* Boxy design in the screenshot */
+  display: flex;
+  flex-direction: column;
+}
+
+.rp-card-visual {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #18181b;
+  border-bottom: 1px solid #27272a;
+}
+
+.rp-target {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rp-target-inner {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.rp-card-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.rp-category {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.rp-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.rp-problem-solution {
+  flex: 1;
+}
+
+.rp-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #52525b;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
+.rp-label.mt {
+  margin-top: 1.5rem;
+}
+
+.rp-problem-solution p {
+  font-size: 0.85rem;
+  color: #a1a1aa;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.rp-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  border-top: 1px solid #27272a;
+  padding-top: 1.5rem;
+}
+
+.rp-metric {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.rp-link {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .rp-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .rp-title {
+    font-size: 2.5rem;
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .real-problems-section {
+    padding: 5rem 5%;
+  }
+
+  .rp-title {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .rp-card-visual {
+    height: 200px;
+  }
+
+  .rp-card-content {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .real-problems-section {
+    padding: 4rem 4%;
+  }
+
+  .rp-title {
+    font-size: 1.75rem;
+  }
+}

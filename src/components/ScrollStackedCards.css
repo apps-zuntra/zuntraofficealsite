@@ -1,0 +1,221 @@
+/* ScrollStackedCards.css - Exact Image 2 3D Card Stack */
+
+.scroll-stacked-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 490px;
+  margin: 0 auto;
+  user-select: none;
+}
+
+.scroll-stacked-canvas {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1.05;
+  background-color: #fdf0e7;
+  border-radius: 36px;
+  overflow: hidden;
+  box-shadow: 
+    0 25px 60px -15px rgba(255, 122, 83, 0.15),
+    0 10px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+  cursor: grab;
+}
+
+.scroll-stacked-canvas:active {
+  cursor: grabbing;
+}
+
+/* Background Orange S-Curve */
+.s-curve-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* 3D Viewport */
+.cards-stack-viewport {
+  position: relative;
+  width: 86%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+  z-index: 5;
+}
+
+/* Individual Stacked Card - 100% Solid & Clean */
+.custom-stacked-card {
+  position: absolute;
+  width: 100%;
+  height: 190px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.35fr 0.95fr;
+  isolation: isolate;
+  opacity: 1 !important; /* Always solid background */
+  box-shadow: 
+    0 14px 32px rgba(0, 0, 0, 0.14),
+    0 4px 10px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.custom-stacked-card.active-card {
+  box-shadow: 
+    0 24px 50px -8px rgba(0, 0, 0, 0.3),
+    0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.custom-stacked-card.inactive-card {
+  box-shadow: 
+    0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* On Inactive peeking cards, hide paragraph so it collapses cleanly */
+.custom-stacked-card.inactive-card .card-desc-paragraph {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Left Section */
+.card-left-section {
+  padding: 20px 16px 20px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 2;
+  position: relative;
+}
+
+.card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.card-emoji {
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-main-title {
+  font-family: 'Rubik', 'Outfit', 'Inter', -apple-system, sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+}
+
+.card-desc-paragraph {
+  font-size: 10.5px;
+  line-height: 1.48;
+  font-weight: 500;
+  opacity: 0.95;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: opacity 0.2s ease;
+}
+
+/* Right Section (Avatar with Speech-Bubble Notch) */
+.card-right-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.avatar-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.speech-notch {
+  position: absolute;
+  top: 50%;
+  left: -1px;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 36px;
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Indicators */
+.stack-indicators {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 30;
+}
+
+.indicator-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.15);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator-dot.active {
+  width: 18px;
+  border-radius: 6px;
+  background: #ff7a53;
+}
+
+@media (max-width: 640px) {
+  .scroll-stacked-wrapper {
+    max-width: 100%;
+  }
+  .cards-stack-viewport {
+    width: 90%;
+    height: 175px;
+  }
+  .custom-stacked-card {
+    height: 170px;
+    grid-template-columns: 1.4fr 0.9fr;
+  }
+  .card-left-section {
+    padding: 14px 12px 14px 16px;
+  }
+  .card-main-title {
+    font-size: 13px;
+  }
+  .card-desc-paragraph {
+    font-size: 9.5px;
+    -webkit-line-clamp: 4;
+  }
+}

@@ -1,0 +1,259 @@
+.ai-products-section {
+  padding: 8rem 5%;
+  background-color: #fff;
+}
+
+.ai-prod-header {
+  margin-bottom: 6rem;
+}
+
+.ai-prod-header .eyebrow {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.ai-prod-header h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #111;
+  letter-spacing: -0.03em;
+}
+
+.ai-prod-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.ai-prod-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.ai-prod-text {
+  flex: 1;
+  max-width: 480px;
+}
+
+.prod-tag {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.ai-prod-text h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #111;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.ai-prod-text p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.prod-feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 3rem 0;
+}
+
+.prod-feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.prod-feature-list .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.btn-explore {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #111;
+  color: #111;
+  padding: 0.8rem 1.5rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.btn-explore:hover {
+  background: #111;
+  color: #fff;
+}
+
+/* Mockup UI */
+.ai-prod-visual {
+  flex: 1.2;
+}
+
+.prod-mockup {
+  background: #fafafa;
+  border-radius: 12px;
+  border: 1px solid #eaeaea;
+  border-top-width: 4px;
+  border-top-style: solid;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}
+
+.mockup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.m-name {
+  font-weight: 800;
+  font-size: 1rem;
+  color: #111;
+}
+
+.m-sub {
+  font-size: 0.7rem;
+  color: #888;
+}
+
+.m-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.m-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d1d5db;
+}
+
+.mockup-body {
+  padding: 1.5rem;
+}
+
+.m-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.m-row:last-child {
+  border-bottom: none;
+}
+
+.m-row-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.m-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-inner-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.m-feat-text {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.m-status {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #10b981;
+}
+
+.mockup-footer {
+  background: #f4f4f5;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 900px) {
+  .ai-prod-row {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .ai-prod-text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .ai-products-section {
+    padding: 5rem 5%;
+  }
+
+  .ai-prod-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .ai-prod-header {
+    margin-bottom: 4rem;
+  }
+
+  .ai-prod-list {
+    gap: 5rem;
+  }
+
+  .ai-prod-text h3 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ai-products-section {
+    padding: 4rem 4%;
+  }
+
+  .ai-prod-header h2 {
+    font-size: 2rem;
+  }
+
+  .ai-prod-text h3 {
+    font-size: 1.5rem;
+  }
+}

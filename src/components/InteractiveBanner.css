@@ -1,0 +1,225 @@
+.interactive-banner-wrapper {
+	--primary--h: 25;
+	--primary--s: 30%;
+	--primary--l: 50%;
+	
+	--primary-000: var(--primary--h) var(--primary--s) 2.5%;	
+	--primary-005: var(--primary--h) var(--primary--s) 6%;
+	--primary-010: var(--primary--h) var(--primary--s) 12%;
+	--primary-020: var(--primary--h) var(--primary--s) 20%;
+	--primary-030: var(--primary--h) var(--primary--s) 30%;
+	--primary-040: var(--primary--h) var(--primary--s) 40%;
+	--primary-050: var(--primary--h) var(--primary--s) 50%;
+	--primary-060: var(--primary--h) var(--primary--s) 60%;
+	--primary-080: var(--primary--h) var(--primary--s) 80%;
+	--primary-070: var(--primary--h) var(--primary--s) 70%;
+	--primary-090: var(--primary--h) var(--primary--s) 90%;
+	
+	--secondary--h: 206;
+	--secondary--s: 12%;
+	
+	--spacer-x: 1.75dvw;
+	--spacer-y: 18px;
+	
+	--spacer: min(var(--spacer-x), var(--spacer-y));
+	
+	--radius-min: 3cqi;
+	--radius-001: min(var(--radius-min), 18px);
+	--radius-002: calc( var(--radius-001) / 2 );
+
+  width: 100%;
+}
+
+.interactive-banner-wrapper .project-container {
+	--col-w--min: calc(max(390px, 50cqw) - var(--spacer-x));
+	
+	container: project-container / inline-size;	
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+}
+
+.interactive-banner-wrapper .project {	
+	--preview-x: var(--x-init);
+	border-radius: var(--radius-001);
+	
+	container: project / inline-size;	
+	
+	display: grid;
+	grid-template-rows: auto 1fr;
+	align-content: start;
+	min-height: 50cqh;
+}
+
+.interactive-banner-wrapper .project.full { 
+  --x-init: 2cqw;
+  --x-hover: -4cqw;
+  grid-column: 1 / -1;
+}
+
+.interactive-banner-wrapper .project.full .preview-container picture {
+  aspect-ratio: 16/9;
+  height: 100cqh;
+}
+
+.interactive-banner-wrapper .project.full .preview-container picture:nth-of-type(2) {
+  height: 110cqh;
+  width: 75%;
+  position: absolute;
+}
+
+.interactive-banner-wrapper .preview-container {	
+	border-radius: var(--radius-002);
+	container: preview-container / size;	
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	margin: var(--spacer) var(--spacer) 0 var(--spacer);
+	padding: calc(var(--spacer) / 3);	
+	
+	min-height: 150px;
+	height: 60cqw;
+	max-height: 60dvh;
+	
+	transition-property: height;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+
+	will-change: height;
+	position: relative;
+}
+	
+.interactive-banner-wrapper .preview-container picture {
+  --height-init: 100cqh;
+  --height: var(--height-init);
+  --shadow-blur: 4cqw;
+  --shadow-spread: 0;
+  --shadow-y: .25cqh;
+  --translateY: 1.25cqh;
+  
+  border-radius: var(--radius-002);			
+  box-shadow: 0 var(--shadow-y) var(--shadow-blur) var(--shadow-spread) rgba(0, 0, 0, 0.1);
+  
+  container: picture / size;
+  display: grid;
+  min-height: 0;
+  
+  overflow: hidden;
+  
+  translate: var(--translateX, 0) var(--translateY);
+  
+  transition-property: box-shadow, filter, opacity, rotate, translate, width;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  
+  position: relative;		
+}
+
+.interactive-banner-wrapper .preview-container picture * { 
+  grid-area: 1 / 1;	
+}
+  
+.interactive-banner-wrapper .preview-container picture img {			
+  border-radius: inherit;
+  pointer-events: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.interactive-banner-wrapper .project:has(:hover, :focus) .preview-container picture,
+.interactive-banner-wrapper .project:hover .preview-container picture {
+  --preview-x: var(--x-hover);
+  --shadow-blur: 25cqh;
+  --shadow-spread: 3cqh;
+  --shadow-opacity: 70%;
+  filter: unset;
+  mix-blend-mode: unset;
+}
+
+.interactive-banner-wrapper .preview-container:has(:hover) picture:not(:hover),
+.interactive-banner-wrapper .preview-container picture:first-of-type,
+.interactive-banner-wrapper .preview-container picture:last-of-type {
+  /* Fully opaque cards */
+}
+
+.interactive-banner-wrapper .preview-container:has(:hover) picture:not(:hover):hover,
+.interactive-banner-wrapper .preview-container picture:first-of-type:hover,
+.interactive-banner-wrapper .preview-container picture:last-of-type:hover,
+.interactive-banner-wrapper .preview-container picture:first-of-type:focus,
+.interactive-banner-wrapper .preview-container picture:last-of-type:focus {
+  filter: unset;
+  mix-blend-mode: unset;
+  opacity: 1;
+  rotate: 0deg;
+  z-index: 600;
+}
+
+.interactive-banner-wrapper .preview-container picture:nth-of-type(1) {
+  --translateX: var(--preview-x);
+  rotate: 0deg;			
+}
+
+@media (min-width: 480px) {
+  .interactive-banner-wrapper .preview-container picture:nth-of-type(1) { rotate: -2deg; }
+  .interactive-banner-wrapper .preview-container picture:nth-of-type(3) { rotate: 2deg; }
+}
+
+@media (min-width: 750px) {
+  .interactive-banner-wrapper .preview-container picture:nth-of-type(1) { rotate: -3deg; }
+  .interactive-banner-wrapper .preview-container picture:nth-of-type(3) { rotate: 3deg; }
+}
+
+.interactive-banner-wrapper .preview-container picture:nth-of-type(2) {
+  --translateY: -1.25cqh;
+  scale: 1;
+  z-index: 500;
+}
+
+.interactive-banner-wrapper .preview-container picture:nth-of-type(2):hover {
+  --translateY: -2cqh;
+}
+
+.interactive-banner-wrapper .preview-container picture:nth-of-type(3) {
+  --translateX: calc(var(--preview-x) * -1);
+  rotate: 0deg;
+}
+
+.interactive-banner-wrapper .preview-container picture:focus { 
+  outline: 6px solid #ffc32c; 
+  outline-offset: 3px; 
+}
+
+.interactive-banner-wrapper .preview-container picture:focus,
+.interactive-banner-wrapper .preview-container picture:hover {			
+  --shadow-blur: 15cqh;
+  --shadow-spread: 1cqh;
+  --shadow-opacity: 50%;
+  --shadow-y: 3cqh;
+  --translateY: 0;
+  mix-blend-mode: initial;
+}
+
+@media (orientation: portrait) {
+	.interactive-banner-wrapper .preview-container {
+		max-height: 360px;
+	}
+}
+
+@media (max-width: 880px) {
+	.interactive-banner-wrapper .preview-container {
+		max-height: 720px;
+	}
+}
+
+.interactive-banner-wrapper .bg {
+	height: 100cqh;
+	width: 100cqw;
+}
+
+.interactive-banner-wrapper .red { background: oklch(60% 50% 10deg); }
+.interactive-banner-wrapper .blue { background: oklch(50% 60% 220deg); }
+.interactive-banner-wrapper .green { background: oklch(70% 70% 110deg); }

@@ -1,0 +1,22 @@
+.stats-section {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  padding: 4rem 0;
+}
+
+.stats-grid {
+  text-align: center;
+}
+
+.stat-item h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.stat-item p {
+  color: var(--text-muted);
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
