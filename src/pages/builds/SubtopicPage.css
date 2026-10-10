@@ -45,38 +45,51 @@
 }
 
 /* Button Styles */
-.btn {
+.subtopic-page .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem 2rem;
+  height: 48px;
+  min-height: 48px;
+  max-height: 48px;
+  padding: 0 2rem;
+  margin: 0 !important;
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   cursor: pointer;
+  border-radius: 4px;
   border: 1px solid transparent;
   transition: all 0.2s ease;
   text-decoration: none;
+  box-sizing: border-box;
+  line-height: 1;
+  vertical-align: middle;
 }
 
-.btn-black {
+.subtopic-page .btn-black {
+  margin: 0 !important;
   background-color: #0a0a0a;
   color: #fff;
+  border: 1px solid #0a0a0a;
 }
 
-.btn-black:hover {
-  background-color: #333;
+.subtopic-page .btn-black:hover {
+  background-color: #262626;
+  border-color: #262626;
 }
 
-.btn-outline-black {
+.subtopic-page .btn-outline-black {
+  margin: 0 !important;
   background-color: transparent;
   color: #111;
-  border-color: #9ca3af;
+  border: 1px solid #d1d5db;
 }
 
-.btn-outline-black:hover {
+.subtopic-page .btn-outline-black:hover {
   background-color: #f9fafb;
+  border-color: #111;
 }
 
 /* 1. Hero Section */
@@ -106,10 +119,11 @@
   margin-bottom: 3rem;
 }
 
-.st-hero-buttons {
+.subtopic-page .st-hero-buttons {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.25rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .st-statement {

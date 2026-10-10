@@ -1,18 +1,7 @@
 import { useEffect, useState } from "react";
 import "./IncubationApply.css";
 
-/* ------------------------------------------------------------------ */
-/*  Static content                                                     */
-/* ------------------------------------------------------------------ */
 
-const NAV_LINKS = [
-  "What We Build",
-  "Products",
-  "Solutions",
-  "Industries",
-  "Innovation",
-  "Company",
-];
 
 const NAV_SECONDARY_LINKS = ["Insights", "Careers"];
 
@@ -406,17 +395,17 @@ function FormField({ field, value, onChange, onToggleChip }) {
       {(field.type === "text" ||
         field.type === "email" ||
         field.type === "tel") && (
-        <input
-          id={inputId}
-          name={field.name}
-          type={field.type}
-          className="input"
-          placeholder={field.placeholder}
-          value={value}
-          onChange={onChange}
-          required={field.required}
-        />
-      )}
+          <input
+            id={inputId}
+            name={field.name}
+            type={field.type}
+            className="input"
+            placeholder={field.placeholder}
+            value={value}
+            onChange={onChange}
+            required={field.required}
+          />
+        )}
     </div>
   );
 }
@@ -479,33 +468,6 @@ export default function IncubationApplyPage({ onSubmit }) {
 
   return (
     <div className="incubation-page">
-      {/* ---------------------------- Navbar ---------------------------- */}
-      <header className="navbar">
-        <div className="container navbar__inner">
-          <a href="#" className="brand">
-            ZUNTRA
-          </a>
-
-          <nav className="navbar__links" aria-label="Primary">
-            {NAV_LINKS.map((link) => (
-              <a key={link} href="#" className="navbar__link">
-                {link}
-              </a>
-            ))}
-          </nav>
-
-          <div className="navbar__actions">
-            {NAV_SECONDARY_LINKS.map((link) => (
-              <a key={link} href="#" className="navbar__link navbar__link--muted">
-                {link}
-              </a>
-            ))}
-            <a href="#" className="navbar__cta">
-              Let's Talk
-            </a>
-          </div>
-        </div>
-      </header>
 
       <main>
         {/* ----------------------------- Hero ----------------------------- */}
@@ -564,9 +526,8 @@ export default function IncubationApplyPage({ onSubmit }) {
                   </header>
 
                   <div
-                    className={`form-section__body${
-                      section.layout === "grid" ? " form-section__body--grid" : ""
-                    }`}
+                    className={`form-section__body${section.layout === "grid" ? " form-section__body--grid" : ""
+                      }`}
                   >
                     {section.fields.map((field) => (
                       <FormField

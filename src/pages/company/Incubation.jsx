@@ -81,28 +81,7 @@ const PROGRAMS = [
     eyebrow: "Incubation program",
     title: "Zuntra Incubation",
     text: "For early-stage ideas that need product thinking, design and technology development to move from concept toward something real.",
-    href: "#",
-  },
-  {
-    key: "technology",
-    eyebrow: "Technology program",
-    title: "Zuntra Tech Incubation",
-    text: "For technology-led concepts and emerging systems that need engineering depth and AI expertise to take shape.",
-    href: "#",
-  },
-  {
-    key: "build",
-    eyebrow: "Build program",
-    title: "Zuntra Product Build",
-    text: "For validated ideas ready to move into active product development with a clear scope and user in mind.",
-    href: "#",
-  },
-  {
-    key: "cohort",
-    eyebrow: "Cohort program",
-    title: "Zuntra Cohort",
-    text: "A structured, time-bound incubation experience for selected builders moving through the journey together.",
-    href: "#",
+    href: "/company/incubationApply",
   },
 ];
 
@@ -111,38 +90,20 @@ const STORIES = [
     size: "large",
     title: "The next story",
     text: "The next Zuntra venture story starts with an idea.",
-    href: "#",
+    href: "/company/incubationApply",
   },
   {
     size: "small",
     title: "Could start",
     text: "Tell us what you are building.",
-    href: "#",
+    href: "/company/incubationApply",
   },
   {
     size: "small",
     title: "Right here.",
     text: "Apply to Zuntra Incubation.",
-    href: "#",
+    href: "/company/incubationApply",
   },
-];
-
-const FILTERS = [
-  { id: "all", label: "All" },
-  { id: "ai", label: "AI" },
-  { id: "consumer", label: "Consumer" },
-  { id: "enterprise", label: "Enterprise" },
-  { id: "property", label: "Property" },
-];
-
-/* `filter` decides which filter button shows the venture */
-const VENTURES = [
-  { name: "Huzzler", type: "AI / Product", filter: "ai", href: "#" },
-  { name: "Wiviy", type: "Consumer / Social", filter: "consumer", href: "#" },
-  { name: "Mungo", type: "Pet / Consumer", filter: "consumer", href: "#" },
-  { name: "Rentit", type: "Property / Marketplace", filter: "property", href: "#" },
-  { name: "Zuca", type: "Commerce / Platform", filter: "enterprise", href: "#" },
-  { name: "Z01 Crew", type: "Community / Network", filter: "consumer", href: "#" },
 ];
 
 const FLOW = [
@@ -203,12 +164,9 @@ function HeroSection() {
           products, ventures and businesses.
         </p>
         <div className="inc-hero__actions">
-          <a className="inc-btn inc-btn--dark" href="#apply">
+          <Link className="inc-btn inc-btn--dark" to="/company/incubationApply">
             Apply to incubate →
-          </a>
-          <a className="inc-btn inc-btn--outline" href="#ventures">
-            Explore our ventures ↓
-          </a>
+          </Link>
         </div>
       </div>
     </section>
@@ -267,9 +225,9 @@ function HelpSection() {
           <div className="inc-help__copy">
             <h3 className="inc-help__heading">{tab.heading}</h3>
             <p className="inc-help__text">{tab.text}</p>
-            <a className="inc-link" href="#apply">
+            <Link className="inc-link" to="/company/incubationApply">
               Apply to incubate →
-            </a>
+            </Link>
           </div>
 
           <div className="inc-help__visual">
@@ -361,22 +319,21 @@ function ProgramsSection() {
             <br />
             with Zuntra.
           </h2>
-          <p className="inc-programs__note">Placeholder programs</p>
         </div>
 
-        <div className="inc-programs__grid">
+        <div className="inc-programs__grid inc-programs__grid--single">
           {PROGRAMS.map((program, index) => (
-            <article className={`inc-card inc-card--${program.key}`} key={program.key}>
-              <ImageSlot className="inc-card__img">
+            <article className={`inc-card inc-card--${program.key} inc-card--full`} key={program.key}>
+              <ImageSlot className="inc-card__img inc-card__img--full">
                 <img src={IMAGE_URLS[`program${index + 1}`]} alt={`${program.title} visual`} />
               </ImageSlot>
               <div className="inc-card__body">
                 <p className="inc-card__eyebrow">{program.eyebrow}</p>
                 <h3 className="inc-card__title">{program.title}</h3>
                 <p className="inc-card__text">{program.text}</p>
-                <a className="inc-card__link" href={program.href}>
+                <Link className="inc-card__link" to="/company/incubationApply">
                   Learn more →
-                </a>
+                </Link>
               </div>
             </article>
           ))}
@@ -394,14 +351,14 @@ function StoriesSection() {
           Ideas that went <span className="inc-ring inc-ring--tight">further.</span>
         </h2>
         <p className="inc-stories__text">
-          Placeholder venture content — replace with verified venture stories and outcomes.
+          Stories and ventures taking shape inside the Zuntra ecosystem.
         </p>
 
         <div className="inc-stories__grid">
           {STORIES.map((story, index) => (
-            <a
+            <Link
               className={`inc-story inc-story--${story.size}`}
-              href={story.href}
+              to={story.href}
               key={story.title}
             >
               <ImageSlot className="inc-story__img">
@@ -420,58 +377,9 @@ function StoriesSection() {
                   ↗
                 </span>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
-      </div>
-    </section>
-  );
-}
-
-function PortfolioSection() {
-  const [activeFilter, setActiveFilter] = useState("all");
-  const visible = VENTURES.filter(
-    (venture) => activeFilter === "all" || venture.filter === activeFilter
-  );
-
-  return (
-    <section className="inc-section inc-portfolio" id="ventures">
-      <div className="inc-container">
-        <div className="inc-portfolio__head">
-          <h2 className="inc-portfolio__title">
-            The Zuntra
-            <br />
-            venture ecosystem.
-          </h2>
-          <div className="inc-filters" role="group" aria-label="Filter ventures">
-            {FILTERS.map((item) => (
-              <button
-                key={item.id}
-                type="button"
-                aria-pressed={item.id === activeFilter}
-                className={`inc-filter${item.id === activeFilter ? " is-active" : ""}`}
-                onClick={() => setActiveFilter(item.id)}
-              >
-                {item.label}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <ul className="inc-portfolio__list">
-          {visible.map((venture, index) => (
-            <li key={venture.name}>
-              <a className="inc-venture" href={venture.href}>
-                <span className="inc-venture__num">{pad(index + 1)}</span>
-                <span className="inc-venture__name">{venture.name}</span>
-                <span className="inc-venture__type">{venture.type}</span>
-                <span className="inc-venture__arrow" aria-hidden="true">
-                  ↗
-                </span>
-              </a>
-            </li>
-          ))}
-        </ul>
       </div>
     </section>
   );
@@ -492,9 +400,9 @@ function CommunitySection() {
             Ideas become stronger when different perspectives, skills and experiences come together.
             Incubation is a collective act.
           </p>
-          <a className="inc-btn inc-btn--light" href="#">
+          <Link className="inc-btn inc-btn--light" to="/company/incubationApply">
             Join the community →
-          </a>
+          </Link>
         </div>
 
         <div className="inc-community__collage">
@@ -597,11 +505,10 @@ export default function IncubationPage() {
         <HeroSection />
         <WhySection />
         <HelpSection />
-        <CapabilitySection />
+        {/* <CapabilitySection /> */}
         <JourneySection />
         <ProgramsSection />
         <StoriesSection />
-        <PortfolioSection />
         <CommunitySection />
         <EcosystemSection />
         <ApplySection />

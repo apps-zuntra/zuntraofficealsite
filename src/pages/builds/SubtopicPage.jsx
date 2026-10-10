@@ -23,6 +23,12 @@ const SubtopicPage = () => {
   // Look up data or use fallback
   const data = subtopicData[subtopicSlug] || subtopicData["fallback"];
 
+  // Helper to remove any HTML entities like &rarr; or raw arrows
+  const cleanText = (str) => {
+    if (!str) return '';
+    return str.replace(/&[a-z0-9#]+;|→/gi, '').trim();
+  };
+
   return (
     <div className="subtopic-page" style={{ position: 'relative' }}>
       <SideGridLines />
@@ -36,9 +42,9 @@ const SubtopicPage = () => {
             <h1 className="st-main-title" dangerouslySetInnerHTML={{ __html: data.hero.title }}></h1>
             <p className="st-hero-desc" dangerouslySetInnerHTML={{ __html: data.hero.desc }}></p>
             <div className="st-hero-buttons">
-              <button className="btn btn-black">{data.hero.buttonText}</button>
+              <button className="btn btn-black">{cleanText(data.hero.buttonText)}</button>
               {data.hero.secondaryButtonText && (
-                <button className="btn btn-outline-black">{data.hero.secondaryButtonText}</button>
+                <button className="btn btn-outline-black">{cleanText(data.hero.secondaryButtonText)}</button>
               )}
             </div>
           </div>
@@ -46,12 +52,12 @@ const SubtopicPage = () => {
       </section>
 
       {/* 2. Centered Statement */}
-      <section className="st-statement">
+      {/* <section className="st-statement">
         <div className="container st-statement-container text-center">
           <h2 className="st-statement-text" dangerouslySetInnerHTML={{ __html: data.statement.text }}></h2>
           <p className="st-statement-sub">{data.statement.subText}</p>
         </div>
-      </section>
+      </section> */}
 
       {/* 3. Features Grid */}
       <section className="st-features-grid-section">
@@ -71,14 +77,13 @@ const SubtopicPage = () => {
       </section>
 
       {/* 4. Architecture Graph (Dark) */}
-      <section className="st-arch-section bg-black">
+      {/* <section className="st-arch-section bg-black">
         <div className="container st-arch-container">
           <div className="st-arch-left">
             <h2 className="st-section-title text-white" dangerouslySetInnerHTML={{ __html: data.architecture.title }}></h2>
             <p className="st-arch-desc">{data.architecture.desc}</p>
           </div>
           <div className="st-arch-right">
-            {/* Custom Diagram Mockup - Vertical Flow */}
             <div className="st-diagram-vertical">
               <div className="dia-node dark">{data.architecture.diagram.node1}</div>
               <div className="dia-line vertical"></div>
@@ -109,7 +114,7 @@ const SubtopicPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 5. Horizontal Values */}
       <section className="st-values-section">
@@ -132,7 +137,7 @@ const SubtopicPage = () => {
       </section>
 
       {/* 6. Complexity Accordion/List */}
-      <section className="st-complexity-section bg-gray">
+      {/* <section className="st-complexity-section bg-gray">
         <div className="container">
           <div className="st-complexity-header">
             <span className="eyebrow gray">{data.complexity.eyebrow}</span>
@@ -148,10 +153,10 @@ const SubtopicPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 7. Success Metrics (Bars) */}
-      <section className="st-success-section">
+      {/* <section className="st-success-section">
         <div className="container st-success-container">
           <div className="st-success-left">
             <span className="eyebrow gray">{data.successMetrics.eyebrow}</span>
@@ -176,15 +181,14 @@ const SubtopicPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 8. Orchestration Visual */}
-      <section className="st-orchestration-section bg-gray">
+      {/* <section className="st-orchestration-section bg-gray">
         <div className="container">
           <h2 className="st-section-title st-orch-title" dangerouslySetInnerHTML={{ __html: data.orchestration.title }}></h2>
 
           <div className="st-orch-split">
-            {/* Left Column */}
             <div className="st-orch-col">
               <span className="orch-eyebrow">SINGLE-PURPOSE AGENT</span>
               <p className="orch-desc-text">{data.orchestration.desc}</p>
@@ -193,7 +197,6 @@ const SubtopicPage = () => {
               </div>
             </div>
 
-            {/* Right Column */}
             <div className="st-orch-col st-orch-col-right">
               <span className="orch-eyebrow text-purple">MULTI-AGENT SYSTEM</span>
               <p className="orch-desc-text">{data.orchestration.mockup.desc}</p>
@@ -211,10 +214,10 @@ const SubtopicPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 9. Evolution Metrics */}
-      <section className="st-evolution-section">
+      {/* <section className="st-evolution-section">
         <div className="container st-evo-container">
           <div className="st-evo-left">
             <span className="eyebrow gray">{data.evolution.eyebrow}</span>
@@ -236,10 +239,10 @@ const SubtopicPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 10. Agent Roles Table */}
-      <section className="st-roles-section">
+      {/* <section className="st-roles-section">
         <div className="container">
           <div className="st-roles-header">
             <span className="eyebrow gray">{data.rolesTable.eyebrow}</span>
@@ -264,7 +267,7 @@ const SubtopicPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 11. FAQ */}
       <section className="st-faq-section bg-gray">
@@ -300,7 +303,7 @@ const SubtopicPage = () => {
             <h2>{data.cta.title}</h2>
             {data.cta.subtitle && <p>{data.cta.subtitle}</p>}
             <div className="st-cta-links">
-              <button className="btn btn-link-white">{data.cta.buttonText} &rarr;</button>
+              <button className="btn btn-link-white">{cleanText(data.cta.buttonText)}</button>
             </div>
           </div>
         </div>

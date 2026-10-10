@@ -649,9 +649,29 @@
   margin-top: 48px;
 }
 
+.inc-programs__grid--single {
+  grid-template-columns: 1fr;
+  max-width: 100%;
+}
+
+.inc-card--full {
+  width: 100%;
+}
+
 .inc-card__img {
   width: 100%;
   height: 180px;
+}
+
+.inc-card__img--full {
+  width: 100%;
+  height: 380px;
+}
+
+@media (max-width: 768px) {
+  .inc-card__img--full {
+    height: 240px;
+  }
 }
 
 .inc-card__body {
